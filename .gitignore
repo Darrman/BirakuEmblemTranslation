@@ -1,0 +1,7 @@
+//Roms and other stuff
+*.sfc
+*.srm
+*.z**
+!.zip
+
+*.png

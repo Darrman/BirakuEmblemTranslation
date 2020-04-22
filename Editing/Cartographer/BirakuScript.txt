@@ -1,0 +1,2400 @@
+//GAME NAME:		Fire Emblem: Biraku Emblem
+
+//BLOCK #000 NAME:		Character Names
+
+//POINTER #0 @ $5D862 - STRING #0 @ $5D97E
+
+#W16($5D862)
+//杖星<$CB><$00>[X]
+
+
+//POINTER #1 @ $5D864 - STRING #1 @ $5D986
+
+#W16($5D864)
+//シーダ[X]
+
+
+//POINTER #2 @ $5D866 - STRING #2 @ $5D98E
+
+#W16($5D866)
+//ジェイガン[X]
+
+
+//POINTER #3 @ $5D868 - STRING #3 @ $5D99A
+
+#W16($5D868)
+//カイン[X]
+
+
+//POINTER #4 @ $5D86A - STRING #4 @ $5D9A2
+
+#W16($5D86A)
+//アベ[X]
+
+
+//POINTER #5 @ $5D86C - STRING #5 @ $5D9AA
+
+#W16($5D86C)
+//ドーガ[X]
+
+
+//POINTER #6 @ $5D86E - STRING #6 @ $5D9B2
+
+#W16($5D86E)
+//ゴードン[X]
+
+
+//POINTER #7 @ $5D870 - STRING #7 @ $5D9BC
+
+#W16($5D870)
+//リカード[X]
+
+
+//POINTER #8 @ $5D872 - STRING #8 @ $5D9C6
+
+#W16($5D872)
+//ベガ[X]
+
+
+//POINTER #9 @ $5D874 - STRING #9 @ $5D9CC
+
+#W16($5D874)
+//サジ[X]
+
+
+//POINTER #10 @ $5D876 - STRING #10 @ $5D9D2
+
+#W16($5D876)
+//マジ[X]
+
+
+//POINTER #11 @ $5D878 - STRING #11 @ $5D9D8
+
+#W16($5D878)
+//バーツ[X]
+
+
+//POINTER #12 @ $5D87A - STRING #12 @ $5D9E0
+
+#W16($5D87A)
+//カシム[X]
+
+
+//POINTER #13 @ $5D87C - STRING #13 @ $5D9E8
+
+#W16($5D87C)
+//オグマ[X]
+
+
+//POINTER #14 @ $5D87E - STRING #14 @ $5D9F0
+
+#W16($5D87E)
+//ダロス[X]
+
+
+//POINTER #15 @ $5D880 - STRING #15 @ $5D9F8
+
+#W16($5D880)
+//ジュリアン[X]
+
+
+//POINTER #16 @ $5D882 - STRING #16 @ $5DA04
+
+#W16($5D882)
+//レナ[X]
+
+
+//POINTER #17 @ $5D884 - STRING #17 @ $5DA0A
+
+#W16($5D884)
+//マリク[X]
+
+
+//POINTER #18 @ $5D886 - STRING #18 @ $5DA12
+
+#W16($5D886)
+//ナバール[X]
+
+
+//POINTER #19 @ $5D888 - STRING #19 @ $5DA1C
+
+#W16($5D888)
+//ハーディン[X]
+
+
+//POINTER #20 @ $5D88A - STRING #20 @ $5DA28
+
+#W16($5D88A)
+//ウルフ[X]
+
+
+//POINTER #21 @ $5D88C - STRING #21 @ $5DA30
+
+#W16($5D88C)
+//ザガロ[X]
+
+
+//POINTER #22 @ $5D88E - STRING #22 @ $5DA38
+
+#W16($5D88E)
+//ロシェ[X]
+
+
+//POINTER #23 @ $5D890 - STRING #23 @ $5DA40
+
+#W16($5D890)
+//マルス[X]
+
+
+//POINTER #24 @ $5D892 - STRING #24 @ $5DA48
+
+#W16($5D892)
+//バヌトゥ[X]
+
+
+//POINTER #25 @ $5D894 - STRING #25 @ $5DA52
+
+#W16($5D894)
+//シーザ[X]
+
+
+//POINTER #26 @ $5D896 - STRING #26 @ $5DA5A
+
+#W16($5D896)
+//ラディ[X]
+
+
+//POINTER #27 @ $5D898 - STRING #27 @ $5DA62
+
+#W16($5D898)
+//ミディア[X]
+
+
+//POINTER #28 @ $5D89A - STRING #28 @ $5DA6C
+
+#W16($5D89A)
+//カチュア[X]
+
+
+//POINTER #29 @ $5D89C - STRING #29 @ $5DA76
+
+#W16($5D89C)
+//マリア[X]
+
+
+//POINTER #30 @ $5D89E - STRING #30 @ $5DA7E
+
+#W16($5D89E)
+//ミネルバ[X]
+
+
+//POINTER #31 @ $5D8A0 - STRING #31 @ $5DA88
+
+#W16($5D8A0)
+//リンダ[X]
+
+
+//POINTER #32 @ $5D8A2 - STRING #32 @ $5DA90
+
+#W16($5D8A2)
+//ジョルジュ[X]
+
+
+//POINTER #33 @ $5D8A4 - STRING #33 @ $5DA9C
+
+#W16($5D8A4)
+//トムス[X]
+
+
+//POINTER #34 @ $5D8A6 - STRING #34 @ $5DAA4
+
+#W16($5D8A6)
+//ミシェラン[X]
+
+
+//POINTER #35 @ $5D8A8 - STRING #35 @ $5DAB0
+
+#W16($5D8A8)
+//トーマス[X]
+
+
+//POINTER #36 @ $5D8AA - STRING #36 @ $5DABA
+
+#W16($5D8AA)
+//ボア[X]
+
+
+//POINTER #37 @ $5D8AC - STRING #37 @ $5DAC0
+
+#W16($5D8AC)
+//アラン[X]
+
+
+//POINTER #38 @ $5D8AE - STRING #38 @ $5DAC8
+
+#W16($5D8AE)
+//サムソン[X]
+
+
+//POINTER #39 @ $5D8B0 - STRING #39 @ $5DAD2
+
+#W16($5D8B0)
+//ベック[X]
+
+
+//POINTER #40 @ $5D8B2 - STRING #40 @ $5DADA
+
+#W16($5D8B2)
+//チェイニー[X]
+
+
+//POINTER #41 @ $5D8B4 - STRING #41 @ $5DAE6
+
+#W16($5D8B4)
+//ウェンデル[X]
+
+
+//POINTER #42 @ $5D8B6 - STRING #42 @ $5DAF2
+
+#W16($5D8B6)
+//エスト[X]
+
+
+//POINTER #43 @ $5D8B8 - STRING #43 @ $5DAFA
+
+#W16($5D8B8)
+//アストリア[X]
+
+
+//POINTER #44 @ $5D8BA - STRING #44 @ $5DB06
+
+#W16($5D8BA)
+//マチス[X]
+
+
+//POINTER #45 @ $5D8BC - STRING #45 @ $5DB0E
+
+#W16($5D8BC)
+//ロジャー[X]
+
+
+//POINTER #46 @ $5D8BE - STRING #46 @ $5DB18
+
+#W16($5D8BE)
+//ジェイク[X]
+
+
+//POINTER #47 @ $5D8C0 - STRING #47 @ $5DB22
+
+#W16($5D8C0)
+//パオラ[X]
+
+
+//POINTER #48 @ $5D8C2 - STRING #48 @ $5DB2A
+
+#W16($5D8C2)
+//チキ[X]
+
+
+//POINTER #49 @ $5D8C4 - STRING #49 @ $5DB30
+
+#W16($5D8C4)
+//ロレンス[X]
+
+
+//POINTER #50 @ $5D8C6 - STRING #50 @ $5DB3A
+
+#W16($5D8C6)
+//エリス[X]
+
+
+//POINTER #51 @ $5D8C8 - STRING #51 @ $5DB42
+
+#W16($5D8C8)
+//ガトー[X]
+
+
+//POINTER #52 @ $5D8CA - STRING #52 @ $5DB4A
+
+#W16($5D8CA)
+//ガザック[X]
+
+
+//POINTER #53 @ $5D8CC - STRING #53 @ $5DB54
+
+#W16($5D8CC)
+//アンナ[X]
+
+
+//POINTER #54 @ $5D8CE - STRING #54 @ $5DB5E
+
+#W16($5D8CE)
+//グルニア兵[X]
+
+
+//POINTER #55 @ $5D8D0 - STRING #55 @ $5DB6A
+
+#W16($5D8D0)
+//ゴメス[X]
+
+
+//POINTER #56 @ $5D8D2 - STRING #56 @ $5DB72
+
+#W16($5D8D2)
+//ガルダ兵[X]
+
+
+//POINTER #57 @ $5D8D4 - STRING #57 @ $5DB7C
+
+#W16($5D8D4)
+//サムシアン[X]
+
+
+//POINTER #58 @ $5D8D6 - STRING #58 @ $5DB88
+
+#W16($5D8D6)
+//ムラク[X]
+
+
+//POINTER #59 @ $5D8D8 - STRING #59 @ $5DB90
+
+#W16($5D8D8)
+//エッツェル[X]
+
+
+//POINTER #60 @ $5D8DA - STRING #60 @ $5DB9C
+
+#W16($5D8DA)
+//アテナ[X]
+
+
+//POINTER #61 @ $5D8DC - STRING #61 @ $5DBA8
+
+#W16($5D8DC)
+//ベンソン[X]
+
+
+//POINTER #62 @ $5D8DE - STRING #62 @ $5DBB2
+
+#W16($5D8DE)
+//カナリス[X]
+
+
+//POINTER #63 @ $5D8E0 - STRING #63 @ $5DBBC
+
+#W16($5D8E0)
+//マヌー[X]
+
+
+//POINTER #64 @ $5D8E2 - STRING #64 @ $5DBC4
+
+#W16($5D8E2)
+//ジューコフ[X]
+
+
+//POINTER #65 @ $5D8E4 - STRING #65 @ $5DBD0
+
+#W16($5D8E4)
+//ショーゼン[X]
+
+
+//POINTER #66 @ $5D8E6 - STRING #66 @ $5DBDC
+
+#W16($5D8E6)
+//ヒムラー[X]
+
+
+//POINTER #67 @ $5D8E8 - STRING #67 @ $5DBE6
+
+#W16($5D8E8)
+//ギガッシュ[X]
+
+
+//POINTER #68 @ $5D8EA - STRING #68 @ $5DBF2
+
+#W16($5D8EA)
+//ユミル[X]
+
+
+//POINTER #69 @ $5D8EC - STRING #69 @ $5DBFA
+
+#W16($5D8EC)
+//ボーゼン[X]
+
+
+//POINTER #70 @ $5D8EE - STRING #70 @ $5DC04
+
+#W16($5D8EE)
+//ホルスタット[X]
+
+
+//POINTER #71 @ $5D8F0 - STRING #71 @ $5DC12
+
+#W16($5D8F0)
+//スターロン[X]
+
+
+//POINTER #72 @ $5D8F2 - STRING #72 @ $5DC1E
+
+#W16($5D8F2)
+//ハイマン[X]
+
+
+//POINTER #73 @ $5D8F4 - STRING #73 @ $5DC28
+
+#W16($5D8F4)
+//ノルン[X]
+
+
+//POINTER #74 @ $5D8F6 - STRING #74 @ $5DC32
+
+#W16($5D8F6)
+//オーダイン[X]
+
+
+//POINTER #75 @ $5D8F8 - STRING #75 @ $5DC3E
+
+#W16($5D8F8)
+//カミユ[X]
+
+
+//POINTER #76 @ $5D8FA - STRING #76 @ $5DC46
+
+#W16($5D8FA)
+//ミシェイル[X]
+
+
+//POINTER #77 @ $5D8FC - STRING #77 @ $5DC52
+
+#W16($5D8FC)
+//ワイラー[X]
+
+
+//POINTER #78 @ $5D8FE - STRING #78 @ $5DC5C
+
+#W16($5D8FE)
+//ガーネフ[X]
+
+
+//POINTER #79 @ $5D900 - STRING #79 @ $5DC66
+
+#W16($5D900)
+//メディウス[X]
+
+
+//POINTER #80 @ $5D902 - STRING #80 @ $5DC72
+
+#W16($5D902)
+//ドルーア兵[X]
+
+
+//POINTER #81 @ $5D904 - STRING #81 @ $5DC7E
+
+#W16($5D904)
+//グラ兵[X]
+
+
+//POINTER #82 @ $5D906 - STRING #82 @ $5DC86
+
+#W16($5D906)
+//ペラティ兵[X]
+
+
+//POINTER #83 @ $5D908 - STRING #83 @ $5DC92
+
+#W16($5D908)
+//ホルス[X]
+
+
+//POINTER #84 @ $5D90A - STRING #84 @ $5DC9E
+
+#W16($5D90A)
+//くろきしだん[X]
+
+
+//POINTER #85 @ $5D90C - STRING #85 @ $5DCAC
+
+#W16($5D90C)
+//カダインマージ[X]
+
+
+//POINTER #86 @ $5D90E - STRING #86 @ $5DCBC
+
+#W16($5D90E)
+//てつきしだん[X]
+
+
+//POINTER #87 @ $5D910 - STRING #87 @ $5DCCA
+
+#W16($5D910)
+//りゅうきしだん[X]
+
+
+//POINTER #88 @ $5D912 - STRING #88 @ $5DCDA
+
+#W16($5D912)
+//てき[X]
+
+
+//POINTER #89 @ $5D914 - STRING #89 @ $5DCE0
+
+#W16($5D914)
+//マケドニア兵[X]
+
+
+//POINTER #90 @ $5D916 - STRING #90 @ $5DCEE
+
+#W16($5D916)
+//てんまきしだん[X]
+
+
+//POINTER #91 @ $5D918 - STRING #91 @ $5DCFE
+
+#W16($5D918)
+//ならずもの[X]
+
+
+//POINTER #92 @ $5D91A - STRING #92 @ $5DD0A
+
+#W16($5D91A)
+//ナギ[X]
+
+
+//POINTER #93 @ $5D91C - STRING #93 @ $5DD14
+
+#W16($5D91C)
+//ダークマージ[X]
+
+
+//POINTER #94 @ $5D91E - STRING #94 @ $5DD22
+
+#W16($5D91E)
+//オレルアンおう[X]
+
+
+//POINTER #95 @ $5D920 - STRING #95 @ $5DD32
+
+#W16($5D920)
+//ごろつき[X]
+
+
+//POINTER #96 @ $5D922 - STRING #96 @ $5DC5C
+
+#W16($5D922)
+//ガーネフ[X]
+
+
+//POINTER #97 @ $5D924 - STRING #97 @ $5DD3C
+
+#W16($5D924)
+//セシル[X]
+
+
+//POINTER #98 @ $5D926 - STRING #98 @ $5DD44
+
+#W16($5D926)
+//ルーク[X]
+
+
+//POINTER #99 @ $5D928 - STRING #99 @ $5DD4C
+
+#W16($5D928)
+//ロディ[X]
+
+
+//POINTER #100 @ $5D92A - STRING #100 @ $5DD54
+
+#W16($5D92A)
+//ライアン[X]
+
+
+//POINTER #101 @ $5D92C - STRING #101 @ $5DD5E
+
+#W16($5D92C)
+//ウォレン[X]
+
+
+//POINTER #102 @ $5D92E - STRING #102 @ $5DD68
+
+#W16($5D92E)
+//ぎゆう兵[X]
+
+
+//POINTER #103 @ $5D930 - STRING #103 @ $5DD72
+
+#W16($5D930)
+//ルーメル[X]
+
+
+//POINTER #104 @ $5D932 - STRING #104 @ $5DD7C
+
+#W16($5D932)
+//リュッケ[X]
+
+
+//POINTER #105 @ $5D934 - STRING #105 @ $5DD86
+
+#W16($5D934)
+//ユミナ[X]
+
+
+//POINTER #106 @ $5D936 - STRING #106 @ $5DD8E
+
+#W16($5D936)
+//ユベロ[X]
+
+
+//POINTER #107 @ $5D938 - STRING #107 @ $5DD96
+
+#W16($5D938)
+//シリウス[X]
+
+
+//POINTER #108 @ $5D93A - STRING #108 @ $5DDA0
+
+#W16($5D93A)
+//ガイル[X]
+
+
+//POINTER #109 @ $5D93C - STRING #109 @ $5DDA8
+
+#W16($5D93C)
+//バイキング[X]
+
+
+//POINTER #110 @ $5D93E - STRING #110 @ $5DDB4
+
+#W16($5D93E)
+//マリーシア[X]
+
+
+//POINTER #111 @ $5D940 - STRING #111 @ $5DDC0
+
+#W16($5D940)
+//トラース[X]
+
+
+//POINTER #112 @ $5D942 - STRING #112 @ $5DDCA
+
+#W16($5D942)
+//サムトー[X]
+
+
+//POINTER #113 @ $5D944 - STRING #113 @ $5DDD4
+
+#W16($5D944)
+//ラング[X]
+
+
+//POINTER #114 @ $5D946 - STRING #114 @ $5DDDC
+
+#W16($5D946)
+//フィーナ[X]
+
+
+//POINTER #115 @ $5D948 - STRING #115 @ $5DDE6
+
+#W16($5D948)
+//ダール[X]
+
+
+//POINTER #116 @ $5D94A - STRING #116 @ $5DDEE
+
+#W16($5D94A)
+//ラーマンシーフ[X]
+
+
+//POINTER #117 @ $5D94C - STRING #117 @ $5DDFE
+
+#W16($5D94C)
+//ヨーデル[X]
+
+
+//POINTER #118 @ $5D94E - STRING #118 @ $5DE08
+
+#W16($5D94E)
+//エルレーン[X]
+
+
+//POINTER #119 @ $5D950 - STRING #119 @ $5DE14
+
+#W16($5D950)
+//はぐれひりゅう[X]
+
+
+//POINTER #120 @ $5D952 - STRING #120 @ $5DE24
+
+#W16($5D952)
+//すなのぶぞく[X]
+
+
+//POINTER #121 @ $5D954 - STRING #121 @ $5DE32
+
+#W16($5D954)
+//きょうせんし[X]
+
+
+//POINTER #122 @ $5D956 - STRING #122 @ $5DE40
+
+#W16($5D956)
+//さんぞく[X]
+
+
+//POINTER #123 @ $5D958 - STRING #123 @ $5DE4A
+
+#W16($5D958)
+//とうぞく[X]
+
+
+//POINTER #124 @ $5D95A - STRING #124 @ $5DE54
+
+#W16($5D95A)
+//かりゅう[X]
+
+
+//POINTER #125 @ $5D95C - STRING #125 @ $5DE5E
+
+#W16($5D95C)
+//ひょうりゅう[X]
+
+
+//POINTER #126 @ $5D95E - STRING #126 @ $5DE6C
+
+#W16($5D95E)
+//こおりのぶぞく[X]
+
+
+//POINTER #127 @ $5D960 - STRING #127 @ $5DE7C
+
+#W16($5D960)
+//フレイ[X]
+
+
+//POINTER #128 @ $5D962 - STRING #128 @ $5DE86
+
+#W16($5D962)
+//シーマ[X]
+
+
+//POINTER #129 @ $5D964 - STRING #129 @ $5DE8E
+
+#W16($5D964)
+//ちりゅう[X]
+
+
+//POINTER #130 @ $5D966 - STRING #130 @ $5DE98
+
+#W16($5D966)
+//やみのしさい[X]
+
+
+//POINTER #131 @ $5D968 - STRING #131 @ $5DEA6
+
+#W16($5D968)
+//おばさん[X]
+
+
+//POINTER #132 @ $5D96A - STRING #132 @ $5DEB0
+
+#W16($5D96A)
+//アカネイア兵[X]
+
+
+//POINTER #133 @ $5D96C - STRING #133 @ $5DEBE
+
+#W16($5D96C)
+//アリティア兵[X]
+
+
+//POINTER #134 @ $5D96E - STRING #134 @ $5DECC
+
+#W16($5D96E)
+//ニーナ[X]
+
+
+//POINTER #135 @ $5D970 - STRING #135 @ $5DED4
+
+#W16($5D970)
+//しっこくのきし[X]
+
+
+//POINTER #136 @ $5D972 - STRING #136 @ $5DEE4
+
+#W16($5D972)
+//ひのぶぞく[X]
+
+
+//POINTER #137 @ $5D974 - STRING #137 @ $5DEF0
+
+#W16($5D974)
+//やまのぶぞく[X]
+
+
+//POINTER #138 @ $5D976 - STRING #138 @ $5DEFE
+
+#W16($5D976)
+//モロドフ[X]
+
+
+//POINTER #139 @ $5D978 - STRING #139 @ $5DF0A
+
+#W16($5D978)
+//やみのぶぞく[X]
+
+
+//POINTER #140 @ $5D97A - STRING #140 @ $5DF18
+
+#W16($5D97A)
+//まりゅう[X]
+
+
+//POINTER #141 @ $5D97C - STRING #141 @ $5DF22
+
+#W16($5D97C)
+//しんえいたい[X]
+
+
+//BLOCK #001 NAME:		Class Names
+
+//POINTER #0 @ $5DF30 - STRING #0 @ $5DF8A
+
+#W16($5DF30)
+//ロード[X]
+
+
+//POINTER #1 @ $5DF32 - STRING #1 @ $5DF92
+
+#W16($5DF32)
+//せんし[X]
+
+
+//POINTER #2 @ $5DF34 - STRING #2 @ $5DF9A
+
+#W16($5DF34)
+//ソルジャー[X]
+
+
+//POINTER #3 @ $5DF36 - STRING #3 @ $5DFA6
+
+#W16($5DF36)
+//ソシアルナイト[X]
+
+
+//POINTER #4 @ $5DF38 - STRING #4 @ $5DFB6
+
+#W16($5DF38)
+//パラディン[X]
+
+
+//POINTER #5 @ $5DF3A - STRING #5 @ $5DFC2
+
+#W16($5DF3A)
+//ナイト[X]
+
+
+//POINTER #6 @ $5DF3C - STRING #6 @ $5DFC2
+
+#W16($5DF3C)
+//ナイト[X]
+
+
+//POINTER #7 @ $5DF3E - STRING #7 @ $5DFCA
+
+#W16($5DF3E)
+//アーマーナイト[X]
+
+
+//POINTER #8 @ $5DF40 - STRING #8 @ $5DFDA
+
+#W16($5DF40)
+//ジェネラル[X]
+
+
+//POINTER #9 @ $5DF42 - STRING #9 @ $5DFE6
+
+#W16($5DF42)
+//ペガサスナイト[X]
+
+
+//POINTER #10 @ $5DF44 - STRING #10 @ $5DFF6
+
+#W16($5DF44)
+//ドラゴンナイト[X]
+
+
+//POINTER #11 @ $5DF46 - STRING #11 @ $5E006
+
+#W16($5DF46)
+//ハンター[X]
+
+
+//POINTER #12 @ $5DF48 - STRING #12 @ $5E010
+
+#W16($5DF48)
+//スナイパー[X]
+
+
+//POINTER #13 @ $5DF4A - STRING #13 @ $5E01C
+
+#W16($5DF4A)
+//アーチャー[X]
+
+
+//POINTER #14 @ $5DF4C - STRING #14 @ $5E028
+
+#W16($5DF4C)
+//ホースメン[X]
+
+
+//POINTER #15 @ $5DF4E - STRING #15 @ $5E03E
+
+#W16($5DF4E)
+//マムクート[X]
+
+
+//POINTER #16 @ $5DF50 - STRING #16 @ $5E034
+
+#W16($5DF50)
+//かりゅう[X]
+
+
+//POINTER #17 @ $5DF52 - STRING #17 @ $5E04A
+
+#W16($5DF52)
+//ようへい[X]
+
+
+//POINTER #18 @ $5DF54 - STRING #18 @ $5E054
+
+#W16($5DF54)
+//ゆうしゃ[X]
+
+
+//POINTER #19 @ $5DF56 - STRING #19 @ $5E05E
+
+#W16($5DF56)
+//とうぞく[X]
+
+
+//POINTER #20 @ $5DF58 - STRING #20 @ $5E068
+
+#W16($5DF58)
+//コマンド[X]
+
+
+//POINTER #21 @ $5DF5A - STRING #21 @ $5E0F6
+
+#W16($5DF5A)
+//ケンタウロス[X]
+
+
+//POINTER #22 @ $5DF5C - STRING #22 @ $5E07C
+
+#W16($5DF5C)
+//シスター[X]
+
+
+//POINTER #23 @ $5DF5E - STRING #23 @ $5E086
+
+#W16($5DF5E)
+//まどうし[X]
+
+
+//POINTER #24 @ $5DF60 - STRING #24 @ $5E090
+
+#W16($5DF60)
+//しさい[X]
+
+
+//POINTER #25 @ $5DF62 - STRING #25 @ $5E086
+
+#W16($5DF62)
+//まどうし[X]
+
+
+//POINTER #26 @ $5DF64 - STRING #26 @ $5E090
+
+#W16($5DF64)
+//しさい[X]
+
+
+//POINTER #27 @ $5DF66 - STRING #27 @ $5E090
+
+#W16($5DF66)
+//しさい[X]
+
+
+//POINTER #28 @ $5DF68 - STRING #28 @ $5E03E
+
+#W16($5DF68)
+//マムクート[X]
+
+
+//POINTER #29 @ $5DF6A - STRING #29 @ $5E098
+
+#W16($5DF6A)
+//さんぞく[X]
+
+
+//POINTER #30 @ $5DF6C - STRING #30 @ $5E0A2
+
+#W16($5DF6C)
+//かいぞく[X]
+
+
+//POINTER #31 @ $5DF6E - STRING #31 @ $5E0AC
+
+#W16($5DF6E)
+//ばんぞく[X]
+
+
+//POINTER #32 @ $5DF70 - STRING #32 @ $5E0B6
+
+#W16($5DF70)
+//バーサーカー[X]
+
+
+//POINTER #33 @ $5DF72 - STRING #33 @ $5E0C4
+
+#W16($5DF72)
+//ダークナイト[X]
+
+
+//POINTER #34 @ $5DF74 - STRING #34 @ $5E0D2
+
+#W16($5DF74)
+//ダークマージ[X]
+
+
+//POINTER #35 @ $5DF76 - STRING #35 @ $5E0E0
+
+#W16($5DF76)
+//シューター[X]
+
+
+//POINTER #36 @ $5DF78 - STRING #36 @ $5E0EC
+
+#W16($5DF78)
+//こうてい[X]
+
+
+//POINTER #37 @ $5DF7A - STRING #37 @ $5E072
+
+#W16($5DF7A)
+//おどりこ[X]
+
+
+//POINTER #38 @ $5DF7C - STRING #38 @ $5E104
+
+#W16($5DF7C)
+//ひょうりゅう[X]
+
+
+//POINTER #39 @ $5DF7E - STRING #39 @ $5E112
+
+#W16($5DF7E)
+//かいりゅう[X]
+
+
+//POINTER #40 @ $5DF80 - STRING #40 @ $5E11E
+
+#W16($5DF80)
+//ひりゅう[X]
+
+
+//POINTER #41 @ $5DF82 - STRING #41 @ $5E128
+
+#W16($5DF82)
+//ちりゅう[X]
+
+
+//POINTER #42 @ $5DF84 - STRING #42 @ $5E132
+
+#W16($5DF84)
+//あんこくりゅう[X]
+
+
+//POINTER #43 @ $5DF86 - STRING #43 @ $5E142
+
+#W16($5DF86)
+//しんりゅう[X]
+
+
+//POINTER #44 @ $5DF88 - STRING #44 @ $5E14E
+
+#W16($5DF88)
+//まりゅう[X]
+
+
+//BLOCK #002 NAME:		Item Names
+
+//POINTER #0 @ $5E158 - STRING #0 @ $5E256
+
+#W16($5E158)
+//てつのつるぎ[X]
+
+
+//POINTER #1 @ $5E15A - STRING #1 @ $5E264
+
+#W16($5E15A)
+//はがねのつるぎ[X]
+
+
+//POINTER #2 @ $5E15C - STRING #2 @ $5E274
+
+#W16($5E15C)
+//ぎんのつるぎ[X]
+
+
+//POINTER #3 @ $5E15E - STRING #3 @ $5E8D6
+
+#W16($5E15E)
+//ビラクルソード[X]
+
+
+//POINTER #4 @ $5E160 - STRING #4 @ $5E28C
+
+#W16($5E160)
+//キルソード[X]
+
+
+//POINTER #5 @ $5E162 - STRING #5 @ $5E298
+
+#W16($5E162)
+//ハンマー[X]
+
+
+//POINTER #6 @ $5E164 - STRING #6 @ $5E2A6
+
+#W16($5E164)
+//こわれたつるぎ[X]
+
+
+//POINTER #7 @ $5E166 - STRING #7 @ $5E2B6
+
+#W16($5E166)
+//マスターソード[X]
+
+
+//POINTER #8 @ $5E168 - STRING #8 @ $5E2C6
+
+#W16($5E168)
+//レディソード[X]
+
+
+//POINTER #9 @ $5E16A - STRING #9 @ $5E2D4
+
+#W16($5E16A)
+//サンダーソード[X]
+
+
+//POINTER #10 @ $5E16C - STRING #10 @ $5E2E4
+
+#W16($5E16C)
+//メリクルソード[X]
+
+
+//POINTER #11 @ $5E16E - STRING #11 @ $5E2F4
+
+#W16($5E16E)
+//ファルシオン[X]
+
+
+//POINTER #12 @ $5E170 - STRING #12 @ $5E302
+
+#W16($5E170)
+//アーマーキラー[X]
+
+
+//POINTER #13 @ $5E172 - STRING #13 @ $5E312
+
+#W16($5E172)
+//ドラゴンキラー[X]
+
+
+//POINTER #14 @ $5E174 - STRING #14 @ $5E322
+
+#W16($5E174)
+//ソードキラー[X]
+
+
+//POINTER #15 @ $5E176 - STRING #15 @ $5E330
+
+#W16($5E176)
+//てつのやり[X]
+
+
+//POINTER #16 @ $5E178 - STRING #16 @ $5E33C
+
+#W16($5E178)
+//はがねのやり[X]
+
+
+//POINTER #17 @ $5E17A - STRING #17 @ $5E34A
+
+#W16($5E17A)
+//ぎんのやり[X]
+
+
+//POINTER #18 @ $5E17C - STRING #18 @ $5E356
+
+#W16($5E17C)
+//ナイトキラー[X]
+
+
+//POINTER #19 @ $5E17E - STRING #19 @ $5E364
+
+#W16($5E17E)
+//てやり[X]
+
+
+//POINTER #20 @ $5E180 - STRING #20 @ $5E36C
+
+#W16($5E180)
+//こわれたやり[X]
+
+
+//POINTER #21 @ $5E182 - STRING #21 @ $5E37A
+
+#W16($5E182)
+//キラーランス[X]
+
+
+//POINTER #22 @ $5E184 - STRING #22 @ $5E388
+
+#W16($5E184)
+//ほそみのやり[X]
+
+
+//POINTER #23 @ $5E186 - STRING #23 @ $5E396
+
+#W16($5E186)
+//グラディウス[X]
+
+
+//POINTER #24 @ $5E188 - STRING #24 @ $5E3A4
+
+#W16($5E188)
+//てつのゆみ[X]
+
+
+//POINTER #25 @ $5E18A - STRING #25 @ $5E3B0
+
+#W16($5E18A)
+//こわれたゆみ[X]
+
+
+//POINTER #26 @ $5E18C - STRING #26 @ $5E3BE
+
+#W16($5E18C)
+//はがねのゆみ[X]
+
+
+//POINTER #27 @ $5E18E - STRING #27 @ $5E3CC
+
+#W16($5E18E)
+//ぎんのゆみ[X]
+
+
+//POINTER #28 @ $5E190 - STRING #28 @ $5E3D8
+
+#W16($5E190)
+//キラーボウ[X]
+
+
+//POINTER #29 @ $5E192 - STRING #29 @ $5E3E4
+
+#W16($5E192)
+//パルティア[X]
+
+
+//POINTER #30 @ $5E194 - STRING #30 @ $5E3F0
+
+#W16($5E194)
+//てつのおの[X]
+
+
+//POINTER #31 @ $5E196 - STRING #31 @ $5E3FC
+
+#W16($5E196)
+//はがねのおの[X]
+
+
+//POINTER #32 @ $5E198 - STRING #32 @ $5E40A
+
+#W16($5E198)
+//ておの[X]
+
+
+//POINTER #33 @ $5E19A - STRING #33 @ $5E412
+
+#W16($5E19A)
+//ぎんのおの[X]
+
+
+//POINTER #34 @ $5E19C - STRING #34 @ $5E41E
+
+#W16($5E19C)
+//デビルアクス[X]
+
+
+//POINTER #35 @ $5E19E - STRING #35 @ $5E42C
+
+#W16($5E19E)
+//こわれたおの[X]
+
+
+//POINTER #36 @ $5E1A0 - STRING #36 @ $5E43A
+
+#W16($5E1A0)
+//サンダーボルト[X]
+
+
+//POINTER #37 @ $5E1A2 - STRING #37 @ $5E44A
+
+#W16($5E1A2)
+//クインクレイン[X]
+
+
+//POINTER #38 @ $5E1A4 - STRING #38 @ $5E45A
+
+#W16($5E1A4)
+//ストーンヘッジ[X]
+
+
+//POINTER #39 @ $5E1A6 - STRING #39 @ $5E46A
+
+#W16($5E1A6)
+//ファイアーガン[X]
+
+
+//POINTER #40 @ $5E1A8 - STRING #40 @ $5E47A
+
+#W16($5E1A8)
+//エレファント[X]
+
+
+//POINTER #41 @ $5E1AA - STRING #41 @ $5E488
+
+#W16($5E1AA)
+//ひのブレス[X]
+
+
+//POINTER #42 @ $5E1AC - STRING #42 @ $5E494
+
+#W16($5E1AC)
+//こおりのブレス[X]
+
+
+//POINTER #43 @ $5E1AE - STRING #43 @ $5E4A4
+
+#W16($5E1AE)
+//やみのブレス[X]
+
+
+//POINTER #44 @ $5E1B0 - STRING #44 @ $5E4B2
+
+#W16($5E1B0)
+//きりのブレス[X]
+
+
+//POINTER #45 @ $5E1B2 - STRING #45 @ $5E4C0
+
+#W16($5E1B2)
+//ファイアーの書[X]
+
+
+//POINTER #46 @ $5E1B4 - STRING #46 @ $5E4D0
+
+#W16($5E1B4)
+//サンダーの書[X]
+
+
+//POINTER #47 @ $5E1B6 - STRING #47 @ $5E4DE
+
+#W16($5E1B6)
+//ブリザーの書[X]
+
+
+//POINTER #48 @ $5E1B8 - STRING #48 @ $5E4EC
+
+#W16($5E1B8)
+//シェイバーの書[X]
+
+
+//POINTER #49 @ $5E1BA - STRING #49 @ $5E4FC
+
+#W16($5E1BA)
+//エルファイアー[X]
+
+
+//POINTER #50 @ $5E1BC - STRING #50 @ $5E50C
+
+#W16($5E1BC)
+//トロンの書[X]
+
+
+//POINTER #51 @ $5E1BE - STRING #51 @ $5E518
+
+#W16($5E1BE)
+//ボルガノンの書[X]
+
+
+//POINTER #52 @ $5E1C0 - STRING #52 @ $5E528
+
+#W16($5E1C0)
+//エクスカリバー[X]
+
+
+//POINTER #53 @ $5E1C2 - STRING #53 @ $5E538
+
+#W16($5E1C2)
+//オーラの書[X]
+
+
+//POINTER #54 @ $5E1C4 - STRING #54 @ $5E544
+
+#W16($5E1C4)
+//スターライト[X]
+
+
+//POINTER #55 @ $5E1C6 - STRING #55 @ $5E552
+
+#W16($5E1C6)
+//マフーの書[X]
+
+
+//POINTER #56 @ $5E1C8 - STRING #56 @ $5E55E
+
+#W16($5E1C8)
+//ドゥラームの書[X]
+
+
+//POINTER #57 @ $5E1CA - STRING #57 @ $5E56E
+
+#W16($5E1CA)
+//リザイアの書[X]
+
+
+//POINTER #58 @ $5E1CC - STRING #58 @ $5E57C
+
+#W16($5E1CC)
+//メティオの書[X]
+
+
+//POINTER #59 @ $5E1CE - STRING #59 @ $5E58A
+
+#W16($5E1CE)
+//ウォームの書[X]
+
+
+//POINTER #60 @ $5E1D0 - STRING #60 @ $5E7FC
+
+#W16($5E1D0)
+//だいちのオーブ[X]
+
+
+//POINTER #61 @ $5E1D2 - STRING #61 @ $5E598
+
+#W16($5E1D2)
+//ふういんのたて[X]
+
+
+//POINTER #62 @ $5E1D4 - STRING #62 @ $5E5A8
+
+#W16($5E1D4)
+//やみのオーブ[X]
+
+
+//POINTER #63 @ $5E1D6 - STRING #63 @ $5E5B6
+
+#W16($5E1D6)
+//エムブレム[X]
+
+
+//POINTER #64 @ $5E1D8 - STRING #64 @ $5E5C2
+
+#W16($5E1D8)
+//ライブの杖[X]
+
+
+//POINTER #65 @ $5E1DA - STRING #65 @ $5E5CE
+
+#W16($5E1DA)
+//リカバーの杖[X]
+
+
+//POINTER #66 @ $5E1DC - STRING #66 @ $5E5DC
+
+#W16($5E1DC)
+//リブローの杖[X]
+
+
+//POINTER #67 @ $5E1DE - STRING #67 @ $5E5EA
+
+#W16($5E1DE)
+//リライブの杖[X]
+
+
+//POINTER #68 @ $5E1E0 - STRING #68 @ $5E5F8
+
+#W16($5E1E0)
+//ワープの杖[X]
+
+
+//POINTER #69 @ $5E1E2 - STRING #69 @ $5E604
+
+#W16($5E1E2)
+//Mシールドの杖[X]
+
+
+//POINTER #70 @ $5E1E4 - STRING #70 @ $5E614
+
+#W16($5E1E4)
+//ハマーンの杖[X]
+
+
+//POINTER #71 @ $5E1E6 - STRING #71 @ $5E622
+
+#W16($5E1E6)
+//リザーブの杖[X]
+
+
+//POINTER #72 @ $5E1E8 - STRING #72 @ $5E630
+
+#W16($5E1E8)
+//サイレスの杖[X]
+
+
+//POINTER #73 @ $5E1EA - STRING #73 @ $5E63E
+
+#W16($5E1EA)
+//レスキューの杖[X]
+
+
+//POINTER #74 @ $5E1EC - STRING #74 @ $5E64E
+
+#W16($5E1EC)
+//オームの杖[X]
+
+
+//POINTER #75 @ $5E1EE - STRING #75 @ $5E65A
+
+#W16($5E1EE)
+//アンロックの杖[X]
+
+
+//POINTER #76 @ $5E1F0 - STRING #76 @ $5E66A
+
+#W16($5E1F0)
+//シーフの杖[X]
+
+
+//POINTER #77 @ $5E1F2 - STRING #77 @ $5E676
+
+#W16($5E1F2)
+//ウォッチの杖[X]
+
+
+//POINTER #78 @ $5E1F4 - STRING #78 @ $5E684
+
+#W16($5E1F4)
+//アゲインの杖[X]
+
+
+//POINTER #79 @ $5E1F6 - STRING #79 @ $5E692
+
+#W16($5E1F6)
+//かりゅう石[X]
+
+
+//POINTER #80 @ $5E1F8 - STRING #80 @ $5E64E
+
+#W16($5E1F8)
+//オームの杖[X]
+
+
+//POINTER #81 @ $5E1FA - STRING #81 @ $5E69E
+
+#W16($5E1FA)
+//ひょうりゅう石[X]
+
+
+//POINTER #82 @ $5E1FC - STRING #82 @ $5E6AE
+
+#W16($5E1FC)
+//ひりゅう石[X]
+
+
+//POINTER #83 @ $5E1FE - STRING #83 @ $5E6BA
+
+#W16($5E1FE)
+//ちりゅう石[X]
+
+
+//POINTER #84 @ $5E200 - STRING #84 @ $5E6C6
+
+#W16($5E200)
+//あんこく竜石[X]
+
+
+//POINTER #85 @ $5E202 - STRING #85 @ $5E6D4
+
+#W16($5E202)
+//しんりゅう石[X]
+
+
+//POINTER #86 @ $5E204 - STRING #86 @ $5E6E2
+
+#W16($5E204)
+//まりゅう石[X]
+
+
+//POINTER #87 @ $5E206 - STRING #87 @ $5E6EE
+
+#W16($5E206)
+//きずぐすり[X]
+
+
+//POINTER #88 @ $5E208 - STRING #88 @ $5E6FA
+
+#W16($5E208)
+//とびらのかぎ[X]
+
+
+//POINTER #89 @ $5E20A - STRING #89 @ $5E708
+
+#W16($5E20A)
+//てつくず[X]
+
+
+//POINTER #90 @ $5E20C - STRING #90 @ $5E714
+
+#W16($5E20C)
+//はねばしのかぎ[X]
+
+
+//POINTER #91 @ $5E20E - STRING #91 @ $5E724
+
+#W16($5E20E)
+//たからのかぎ[X]
+
+
+//POINTER #92 @ $5E210 - STRING #92 @ $5E732
+
+#W16($5E210)
+//パワーリング[X]
+
+
+//POINTER #93 @ $5E212 - STRING #93 @ $5E740
+
+#W16($5E212)
+//りゅうのたて[X]
+
+
+//POINTER #94 @ $5E214 - STRING #94 @ $5E74E
+
+#W16($5E214)
+//ひでんのしょ[X]
+
+
+//POINTER #95 @ $5E216 - STRING #95 @ $5E75C
+
+#W16($5E216)
+//スピードリング[X]
+
+
+//POINTER #96 @ $5E218 - STRING #96 @ $5E76C
+
+#W16($5E218)
+//まよけ[X]
+
+
+//POINTER #97 @ $5E21A - STRING #97 @ $5E774
+
+#W16($5E21A)
+//てんしのころも[X]
+
+
+//POINTER #98 @ $5E21C - STRING #98 @ $5E784
+
+#W16($5E21C)
+//めがみぞう[X]
+
+
+//POINTER #99 @ $5E21E - STRING #99 @ $5E790
+
+#W16($5E21E)
+//マニュアル[X]
+
+
+//POINTER #100 @ $5E220 - STRING #100 @ $5E79C
+
+#W16($5E220)
+//ブーツ[X]
+
+
+//POINTER #101 @ $5E222 - STRING #101 @ $5E7A4
+
+#W16($5E222)
+//せいすい[X]
+
+
+//POINTER #102 @ $5E224 - STRING #102 @ $5E7AE
+
+#W16($5E224)
+//きしくんしょう[X]
+
+
+//POINTER #103 @ $5E226 - STRING #103 @ $5E7BE
+
+#W16($5E226)
+//ゆうしゃあかし[X]
+
+
+//POINTER #104 @ $5E228 - STRING #104 @ $5E7CE
+
+#W16($5E228)
+//しさいのゆびわ[X]
+
+
+//POINTER #105 @ $5E22A - STRING #105 @ $5E7DE
+
+#W16($5E22A)
+//ひりゅうのむち[X]
+
+
+//POINTER #106 @ $5E22C - STRING #106 @ $5E7EE
+
+#W16($5E22C)
+//オリオンのや[X]
+
+
+//POINTER #107 @ $5E22E - STRING #107 @ $5E7FC
+
+#W16($5E22E)
+//だいちのオーブ[X]
+
+
+//POINTER #108 @ $5E230 - STRING #108 @ $5E80C
+
+#W16($5E230)
+//いのちのオーブ[X]
+
+
+//POINTER #109 @ $5E232 - STRING #109 @ $5E81C
+
+#W16($5E232)
+//アイオテのたて[X]
+
+
+//POINTER #110 @ $5E234 - STRING #110 @ $5E82C
+
+#W16($5E234)
+//星のビラクリア[X]
+
+
+//POINTER #111 @ $5E236 - STRING #111 @ $5E83C
+
+#W16($5E236)
+//星のロナーン[X]
+
+
+//POINTER #112 @ $5E238 - STRING #112 @ $5E84A
+
+#W16($5E238)
+//星のオード[X]
+
+
+//POINTER #113 @ $5E23A - STRING #113 @ $5E858
+
+#W16($5E23A)
+//星のボアルス[X]
+
+
+//POINTER #114 @ $5E23C - STRING #114 @ $5E866
+
+#W16($5E23C)
+//星のワコブ[X]
+
+
+//POINTER #115 @ $5E23E - STRING #115 @ $5E874
+
+#W16($5E23E)
+//星のマジタリス[X]
+
+
+//POINTER #116 @ $5E240 - STRING #116 @ $5E884
+
+#W16($5E240)
+//星のラナ[X]
+
+
+//POINTER #117 @ $5E242 - STRING #117 @ $5E88E
+
+#W16($5E242)
+//星のムオン[X]
+
+
+//POINTER #118 @ $5E244 - STRING #118 @ $5E89A
+
+#W16($5E244)
+//星のバルボ[X]
+
+
+//POINTER #119 @ $5E246 - STRING #119 @ $5E8A6
+
+#W16($5E246)
+//星のバヌトゥス[X]
+
+
+//POINTER #120 @ $5E248 - STRING #120 @ $5E8B6
+
+#W16($5E248)
+//星のサジタリス[X]
+
+
+//POINTER #121 @ $5E24A - STRING #121 @ $5E8C6
+
+#W16($5E24A)
+//星のサギッシオ[X]
+
+
+//POINTER #122 @ $5E24C - STRING #122 @ $5E8E6
+
+#W16($5E24C)
+//シルバーカード[X]
+
+
+//POINTER #123 @ $5E24E - STRING #123 @ $5E8E6
+
+#W16($5E24E)
+//シルバーカード[X]
+
+
+//POINTER #124 @ $5E250 - STRING #124 @ $5E8F6
+
+#W16($5E250)
+//メンバーカード[X]
+
+
+//POINTER #125 @ $5E252 - STRING #125 @ $5E906
+
+#W16($5E252)
+//ひかりのオーブ[X]
+
+
+//POINTER #126 @ $5E254 - STRING #126 @ $5E916
+
+#W16($5E254)
+//ほしのオーブ[X]
+
+
+//BLOCK #003 NAME:		Battle Messages
+
+//POINTER #0 @ $42FDB - STRING #0 @ $4305B
+
+#W16($42FDB)
+//<$CC><$00><$CD><$00>の<$CE><$00><$D3><$00><$C4><$00><$C4><$00><$C4><$00>[X]
+
+
+//POINTER #1 @ $42FDD - STRING #1 @ $4306D
+
+#W16($42FDD)
+//の<$D2><$00><$D3><$00>[X]
+
+
+//POINTER #2 @ $42FDF - STRING #2 @ $43075
+
+#W16($42FDF)
+//のはん<$D3><$00>[X]
+
+
+//POINTER #3 @ $42FE1 - STRING #3 @ $4307F
+
+#W16($42FE1)
+//のさい<$D2><$00><$D3><$00>[X]
+
+
+//POINTER #4 @ $42FE3 - STRING #4 @ $4308B
+
+#W16($42FE3)
+//は すばやくみをかわした<$C4><$00>[X]
+
+
+//POINTER #5 @ $42FE5 - STRING #5 @ $430A7
+
+#W16($42FE5)
+//は[X]
+
+
+//POINTER #6 @ $42FE7 - STRING #6 @ $430AB
+
+#W16($42FE7)
+//の[X]
+
+
+//POINTER #7 @ $42FE9 - STRING #7 @ $430AF
+
+#W16($42FE9)
+//のダメージを うけた[X]
+
+
+//POINTER #8 @ $42FEB - STRING #8 @ $430C5
+
+#W16($42FEB)
+//のダメージを あたえた[X]
+
+
+//POINTER #9 @ $42FED - STRING #9 @ $430DD
+
+#W16($42FED)
+//のけいけんちをえた[X]
+
+
+//POINTER #10 @ $42FEF - STRING #10 @ $430F1
+
+#W16($42FEF)
+//をつかった[X]
+
+
+//POINTER #11 @ $42FF1 - STRING #11 @ $430FD
+
+#W16($42FF1)
+//を <$D1><$00>えた[X]
+
+
+//POINTER #12 @ $42FF3 - STRING #12 @ $43109
+
+#W16($42FF3)
+//はHPが[X]
+
+
+//POINTER #13 @ $42FF5 - STRING #13 @ $43113
+
+#W16($42FF5)
+//<$CF><$00><$D0><$00>した[X]
+
+
+//POINTER #14 @ $42FF7 - STRING #14 @ $4311D
+
+#W16($42FF7)
+//は たおれた[X]
+
+
+//POINTER #15 @ $42FF9 - STRING #15 @ $4312B
+
+#W16($42FF9)
+//は こわれてしまった[X]
+
+
+//POINTER #16 @ $42FFB - STRING #16 @ $43141
+
+#W16($42FFB)
+//は <$D2><$00><$D3><$00>をうけとめた<$C4><$00>[X]
+
+
+//POINTER #17 @ $42FFD - STRING #17 @ $43159
+
+#W16($42FFD)
+//をたおした[X]
+
+
+//POINTER #18 @ $42FFF - STRING #18 @ $43165
+
+#W16($42FFF)
+//<$CF><$00>ヒット[X]
+
+
+//POINTER #19 @ $43001 - STRING #19 @ $4316F
+
+#W16($43001)
+//をもっていた[X]
+
+
+//POINTER #20 @ $43003 - STRING #20 @ $4317D
+
+#W16($43003)
+//をてにいれた[X]
+
+
+//POINTER #21 @ $43005 - STRING #21 @ $4318B
+
+#W16($43005)
+//ちから   [X]
+
+
+//POINTER #22 @ $43007 - STRING #22 @ $43199
+
+#W16($43007)
+//わざ    [X]
+
+
+//POINTER #23 @ $43009 - STRING #23 @ $431A7
+
+#W16($43009)
+//すばやさ  [X]
+
+
+//POINTER #24 @ $4300B - STRING #24 @ $431B5
+
+#W16($4300B)
+//こううん  [X]
+
+
+//POINTER #25 @ $4300D - STRING #25 @ $431C3
+
+#W16($4300D)
+//しゅびりょく[X]
+
+
+//POINTER #26 @ $4300F - STRING #26 @ $431D1
+
+#W16($4300F)
+//ぶきレベル [X]
+
+
+//POINTER #27 @ $43011 - STRING #27 @ $431DF
+
+#W16($43011)
+//さいだいHP[X]
+
+
+//POINTER #28 @ $43013 - STRING #28 @ $431ED
+
+#W16($43013)
+//まほうぼうぎょ[X]
+
+
+//POINTER #29 @ $43015 - STRING #29 @ $431FD
+
+#W16($43015)
+//あがった<$C4><$00>[X]
+
+
+//POINTER #30 @ $43017 - STRING #30 @ $43209
+
+#W16($43017)
+//はレベルが[X]
+
+
+//POINTER #31 @ $43019 - STRING #31 @ $43215
+
+#W16($43019)
+//になった[X]
+
+
+//POINTER #32 @ $4301B - STRING #32 @ $4321F
+
+#W16($4301B)
+//のけいけんちをうしなった[X]
+
+
+//POINTER #33 @ $4301D - STRING #33 @ $43239
+
+#W16($4301D)
+//が[X]
+
+
+//POINTER #34 @ $4301F - STRING #34 @ $4323D
+
+#W16($4301F)
+//さがった[X]
+
+
+//POINTER #35 @ $43021 - STRING #35 @ $43247
+
+#W16($43021)
+//[X]
+
+
+//POINTER #36 @ $43023 - STRING #36 @ $43249
+
+#W16($43023)
+//が<$CF><$00><$D0><$00>した[X]
+
+
+//POINTER #37 @ $43025 - STRING #37 @ $43255
+
+#W16($43025)
+//は まほうぼうぎょが[X]
+
+
+//POINTER #38 @ $43027 - STRING #38 @ $4326B
+
+#W16($43027)
+//あがった[X]
+
+
+//POINTER #39 @ $43029 - STRING #39 @ $43275
+
+#W16($43029)
+//オームのかけらが ひかりくだける[X]
+
+
+//POINTER #40 @ $4302B - STRING #40 @ $43297
+
+#W16($4302B)
+//は いしきをとりもどした[X]
+
+
+//POINTER #41 @ $4302D - STRING #41 @ $432B1
+
+#W16($4302D)
+//なにもおこらなかった[X]
+
+
+//POINTER #42 @ $4302F - STRING #42 @ $432C7
+
+#W16($4302F)
+// ラウンド[X]
+
+
+//POINTER #43 @ $43031 - STRING #43 @ $432D3
+
+#W16($43031)
+// ファイト<$C4><$00><$C4><$00>[X]
+
+
+//POINTER #44 @ $43033 - STRING #44 @ $432E3
+
+#W16($43033)
+//トライアングルアターック<$C4><$00>[X]
+
+
+//POINTER #45 @ $43035 - STRING #45 @ $432FF
+
+#W16($43035)
+//に[X]
+
+
+//POINTER #46 @ $43037 - STRING #46 @ $43303
+
+#W16($43037)
+//へんしんした[X]
+
+
+//POINTER #47 @ $43039 - STRING #47 @ $43311
+
+#W16($43039)
+//クラスチェンジした[X]
+
+
+//POINTER #48 @ $4303B - STRING #48 @ $43325
+
+#W16($4303B)
+//は のろいをはなった<$C4><$00><$C4><$00>[X]
+
+
+//POINTER #49 @ $4303D - STRING #49 @ $4333F
+
+#W16($4303D)
+//みかたぜんいんのHPが[X]
+
+
+//POINTER #50 @ $4303F - STRING #50 @ $43357
+
+#W16($4303F)
+//は <$D2><$00><$D3><$00>をふうじられた[X]
+
+
+//POINTER #51 @ $43041 - STRING #51 @ $4336F
+
+#W16($43041)
+//いどうりょく[X]
+
+
+//POINTER #52 @ $43043 - STRING #52 @ $4337D
+
+#W16($43043)
+//のHPを うばった[X]
+
+
+//POINTER #53 @ $43045 - STRING #53 @ $43391
+
+#W16($43045)
+//ゴールドをもっていた[X]
+
+
+//POINTER #54 @ $43047 - STRING #54 @ $433A7
+
+#W16($43047)
+//ゴールドをてにいれた[X]
+
+
+//POINTER #55 @ $43049 - STRING #55 @ $433BD
+
+#W16($43049)
+//は げんきになった<$C4><$00>[X]
+
+
+//POINTER #56 @ $4304B - STRING #56 @ $433D3
+
+#W16($4304B)
+//を いどうさせた[X]
+
+
+//POINTER #57 @ $4304D - STRING #57 @ $433E5
+
+#W16($4304D)
+//は てきのまほうをふうじた<$C4><$00>[X]
+
+
+//POINTER #58 @ $4304F - STRING #58 @ $43403
+
+#W16($4304F)
+//を よびよせた[X]
+
+
+//POINTER #59 @ $43051 - STRING #59 @ $43413
+
+#W16($43051)
+//は とびらをあけた[X]
+
+
+//POINTER #60 @ $43053 - STRING #60 @ $43427
+
+#W16($43053)
+//ふしぎなひかりが[X]
+
+
+//POINTER #61 @ $43055 - STRING #61 @ $43439
+
+#W16($43055)
+//とざされたくうかんを うつしだした<$C4><$00>[X]
+
+
+//POINTER #62 @ $43057 - STRING #62 @ $4345F
+
+#W16($43057)
+//は みかたぜんいんの[X]
+
+
+//POINTER #63 @ $43059 - STRING #63 @ $43475
+
+#W16($43059)
+//こうどうりょくを かいふくさせた[X]
+
+
+//BLOCK #004 NAME:		Status Screen
+
+//POINTER #0 @ $5AF32 - STRING #0 @ $5AF52
+
+#W16($5AF32)
+//LV  <$AD><$00><$AE><$00>[N]
+HP   <$B0><$00>[X]
+
+
+//POINTER #1 @ $5AF34 - STRING #1 @ $5AF6E
+
+#W16($5AF34)
+//<$E7><$00><$E8><$00><$FE><$00>[N]
+<$FF>あ<$01><$FE><$00>[N]
+<$F9><$00>ひ<$FE><$00>[N]
+<$02><$01><$03><$01><$FE><$00>[N]
+<$E7><$00><$E9><$00><$FE><$00>[N]
+<$CB><$00><$EC><$00><$FE><$00>[X]
+
+
+//POINTER #2 @ $5AF36 - STRING #2 @ $5AF9E
+
+#W16($5AF36)
+//ちから<$FE><$00>[N]
+ わざ<$FE><$00>[N]
+ <$E9><$00>さ<$FE><$00>[N]
+ <$ED><$00><$D7><$00><$FE><$00>[N]
+ <$04><$01><$F8><$00><$FE><$00>[N]
+ <$EA><$00><$EB><$00><$FE><$00>[N]
+ <$D6><$00><$E2><$00><$FE><$00>[X]
+
+
+//POINTER #3 @ $5AF38 - STRING #3 @ $5AFE4
+
+#W16($5AF38)
+//さいだいHP<$FE><$00>[N]
+いどうりょく<$FE><$00>[X]
+
+
+//POINTER #4 @ $5AF3A - STRING #4 @ $5B004
+
+#W16($5AF3A)
+//アーマー<$FB><$00>[X]
+
+
+//POINTER #5 @ $5AF3C - STRING #5 @ $5B010
+
+#W16($5AF3C)
+// ナイト<$FB><$00>[X]
+
+
+//POINTER #6 @ $5AF3E - STRING #6 @ $5B01C
+
+#W16($5AF3E)
+//ドラゴン<$FB><$00>[X]
+
+
+//POINTER #7 @ $5AF40 - STRING #7 @ $5B028
+
+#W16($5AF40)
+// ひこう<$FB><$00>[X]
+
+
+//POINTER #8 @ $5AF42 - STRING #8 @ $5B034
+
+#W16($5AF42)
+//<$B7><$00>ナイト<$FB><$00>[X]
+
+
+//POINTER #9 @ $5AF44 - STRING #9 @ $5B040
+
+#W16($5AF44)
+//ようへい<$FB><$00>[X]
+
+
+//POINTER #10 @ $5AF46 - STRING #10 @ $5B04C
+
+#W16($5AF46)
+// ぶぞく<$FB><$00>[X]
+
+
+//POINTER #11 @ $5AF48 - STRING #11 @ $5B058
+
+#W16($5AF48)
+//しょうかん[X]
+
+
+//POINTER #12 @ $5AF4A - STRING #12 @ $5B064
+
+#W16($5AF4A)
+// かりゅう[X]
+
+
+//POINTER #13 @ $5AF4C - STRING #13 @ $5B070
+
+#W16($5AF4C)
+// ひょう竜[X]
+
+
+//POINTER #14 @ $5AF4E - STRING #14 @ $5B07C
+
+#W16($5AF4E)
+// おとこ<$FB><$00>[X]
+
+
+//POINTER #15 @ $5AF50 - STRING #15 @ $5B088
+
+#W16($5AF50)
+//     [X]
+
+
+//BLOCK #005 NAME:		Map Menu
+//Block Range: $5A206 - $5A285
+
+//<$05><$01><$06><$01><$06><$01><$06><$01><$06><$01><$06><$01><$07><$01><$FE><$FF><$08><$01> ユニット<$09><$01>[N]
+<$08><$01> <$CC><$00><$CD><$00><$CE><$00> <$09><$01>[N]
+<$08><$01> <$CF><$00><$D0><$00>  <$09><$01>[N]
+<$08><$01> <$00><$01><$D2><$00>  <$09><$01>[N]
+<$08><$01> せってい<$09><$01>[N]
+<$08><$01> ターン<$D1><$00><$09><$01>[N]
+<$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
+

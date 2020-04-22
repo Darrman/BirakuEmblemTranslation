@@ -1,0 +1,321 @@
+CHARACTERS
+
+ビテク	Biraku
+シーダ	Sheeda
+ジェイガン	Jeigan
+カイン	Kain
+アベ	Abel
+ドーガ	Doga
+ゴードン	Gordon
+リカード	Ricardo
+ベガ	Vega, or totally not Sheeda I swear
+サジ	Saji
+マジ	Maji
+バーツ	Barts
+カシム	Kashim
+オグマ	Oguma
+ダロス	Daros
+ジュリアン	Julian
+レナ	Rena
+マリク	Marich
+ナバール	Navarre
+ハーディン	Hardin
+ウルフ	Wolf
+ザガロ	Zagaro
+ロシェ	Roshe
+マルス	Marth
+バヌトゥ	Banutu
+シーザ	Caesar
+ラディ	Raddy
+ミディア	Midia
+カチュア	Katua
+マリア	Maria
+ミネルバ	Minerva
+リンダ	Linda
+ジョルジュ	George
+トムス	Tomth
+ミシェラン	Mishelan
+トーマス	Thomas
+ボア	Boa
+アラン	Alan
+サムソン	Samson
+ベック	Beck
+チェイニー	Chainy
+ウェンデル	Wendel
+エスト	Est
+アストリア	Astria
+マチス	Machis
+ロジャー	Roger
+ジェイク	Jake
+パオラ	Paola
+チキ	Chiki
+ロレンス	Lawrence
+エリス	Ellis
+ガトー	Gato
+ガザック	Gazack
+アンナ	Anna
+グルニア兵	Grunia
+ゴメス	Gomes
+ガルダ兵	Garda
+サムシアン	Samsian
+ムラク	Merak
+エッツェル	Etzel
+アテナ	Athena
+ベンソン	Benson
+カナリス	Canaris
+マヌー	Mannu
+ジューコフ	Zhukov
+ショーゼン	Shozen
+ヒムラー	Himmler
+ギガッシュ	Gigash
+ユミル	Ymir
+ボーゼン	Bozen
+ホルスタット	Holsard
+スターロン	Stallone
+ハイマン	Hyman
+ノルン	Norne
+オーダイン	Ordyne
+カミユ	Camus
+ミシェイル	Misheil
+ワイラー	Wylar
+ガーネフ	Garnef
+メディウス	Mediuth
+ドルーア兵	Durhua
+グラ兵	Gra
+ペラティ兵	Peraty
+ホルス	Horace
+くろきしだん	Black Knight
+カダインマージKhadein
+てつきしだん	(Iron Knight)
+りゅうきしだんDragon Knight
+てき	Enemy
+マケドニア兵	Macedonia
+てんまきしだん(Pegasus Knight)
+ならずもの	(Hoodlum)
+ナギ	Nagi
+ダークマージ	Dark Mage
+オレルアンおうOrleans
+ごろつき	Thief
+ガーネフ	Garnef
+セシル	Cecil
+ルーク	Luke
+ロディ	Rody
+ライアン	Ryan
+ウォレン	Warren
+ぎゆう兵	Volunteer	
+ルーメル	Rumel
+リュッケ	Ryuke
+ユミナ	Yumina
+ユベロ	Yubello
+シリウス	Sirius
+ガイル	Gile
+バイキング	Viking
+マリーシア	Malliesia
+トラース	Toras
+サムトー	Samto
+ラング	Lang
+フィーナ	Feena
+ダール	Dahl
+ラーマンシーフRaman Thief
+ヨーデル	Yodel
+エルレーン	Ellerean
+はぐれひりゅう(Flying Dragon)
+すなのぶぞく	Desert Tribe
+きょうせんし	Berserker
+さんぞく	Bandit	
+とうぞく	Thief
+かりゅう	(Fire Dragon)
+ひょうりゅう	(Ice Dragon)
+こおりのぶぞくIce Tribe
+フレイ	Frey
+シーマ	Sheema
+ちりゅう	(Earth Dragon)
+やみのしさいDark Priest
+おばさん	Aunt
+アカネイア兵	Akaneia
+アリティア兵	Aritia
+ニーナ	Nina
+しっこくのきし"Raven Knight?" probably some black knights
+ひのぶぞく	(Fire Tribe)
+やまのぶぞく	(Mountain Tribe)
+モロドフ	Morodof
+やみのぶぞく	Dark Tribe
+まりゅう
+しんえいたい	Guards
+
+CLASS NAMES
+ロード	Lord
+せんし	Fighter
+ソルジャー	Soldier
+ソシアルナイトCavalier
+パラディン	Paladin
+ナイト	Knight
+ナイト	Knight
+アーマーナイトArmour Knight
+ジェネラル	General
+ペガサスナイトPegasus Knight
+ドラゴンナイトDragon Knight
+ハンター	Hunter
+スナイパー	Sniper
+アーチャー	Archer
+ホースメン	Horseman
+マムクート	Mamkute
+かりゅう	Fire Dragon
+ようへい	Mercenary
+ゆうしゃ	Hero
+とうぞく	Thief
+コマンド	Commando
+ケンタウロス	Centaur
+シスター	Cleric
+まどうし	Mage
+しさい	Bishop
+まどうし	Mage
+しさい	Bishop
+しさい	Bishop
+マムクート	Mamkute
+さんぞく	Brigand
+かいぞく	Pirate
+ばんぞく	Barbarian
+バーサーカー	Berserker
+ダークナイト	Dark Knight
+ダークマージ	Dark Mage
+シューター	Ballista
+こうてい	Emperor
+おどりこ	Dancer
+ひょうりゅう	Ice Dragon
+かいりゅう	Sea Dragon
+ひりゅう	Flying Dragon
+ちりゅう	Earth Dragon
+あんこくりゅう	Dark Dragon
+しんりゅう	Divine Dragon
+まりゅう	Demon Dragon
+
+ITEM NAMES
+てつのつるぎ		Iron Sword
+はがねのつるぎ	Steel Sword
+ぎんのつるぎ		Silver Sword
+ビラクルソード	Biracle Sword (it's a pun, isn't it)
+キルソード		Killing Edge
+ハンマー		Hammer
+こわれたつるぎ	Broken Sword	
+マスターソード	Master Sword
+レディソード		Lady Sword
+サンダーソード	Thunder Sword
+メリクルソード	Miracle Sword
+ファルシオン		Falchion		
+アーマーキラー	Armourslayer
+ドラゴンキラー	Dragonslayer
+ソードキラー		Swordslayer
+てつのやり		Iron Lance
+はがねのやり	Steel Lance
+ぎんのやり		Silver Lance
+ナイトキラー		Horseslayer
+てやり		Javelin
+こわれたやり		Broken Lance
+キラーランス		Killer Lance
+ほそみのやり		Slim Lance
+グラディウス		Gradius
+てつのゆみ		Iron Bow
+こわれたゆみ	Broken Bow
+はがねのゆみ	Steel Bow
+ぎんのゆみ		Silver Bow
+キラーボウ		Killer Bow	
+パルティア		Partia
+てつのおの		Iron Axe
+はがねのおの	Steel Axe
+ておの		Hand Axe
+ぎんのおの		Silver Axe
+デビルアクス		Devil Axe
+こわれたおの	Broken Axe
+サンダーボルト	Thunderbolt
+クインクレイン	Quick Rain
+ストーンヘッジ	Stonehedge
+ファイアーガン	Fire Gun
+エレファント		Elephant
+ひのブレス		Fire Breath
+こおりのブレス	Ice Breath
+やみのブレス		Dark Breath
+きりのブレス		Mist Breath
+ファイアーの書	Fire
+サンダーの書	Thunder
+ブリザーの書		Blizzard
+シェイバーの書	Shaver
+エルファイアー	Elfire
+トロンの書		Thoron
+ボルガノンの書	Bolganone
+エクスカリバー	Excalibur
+オーラの書		Aura
+スターライト		Starlight
+マフーの書		Maph
+ドゥラームの書	Doulam
+リザイアの書		Resire
+メティオの書		Meteor
+ウォームの書	Worm
+だいちのオーブ	Earth Orb
+ふういんのたて	Shield of Seals
+やみのオーブ	Dark Orb
+エムブレム		Fire Emblem
+ライブの杖		Heal
+リカバーの杖		Recover
+リブローの杖		Physic
+リライブの杖		Mend
+ワープの杖		Warp
+Mシールドの杖	Barrier
+ハマーンの杖	Hammerne
+リザーブの杖		Fortify
+サイレスの杖	Silence
+レスキューの杖	Rescue
+オームの杖		Ohm
+アンロックの杖	Unlock
+シーフの杖		Thief
+ウォッチの杖		Watch
+アゲインの杖	Again
+かりゅう石		Fire Stone
+オームの杖		Ohm
+ひょうりゅう石	Ice Stone
+ひりゅう石		Flying Stone
+ちりゅう石		Earth Stone
+あんこく竜石		Dark Stone
+しんりゅう石		Divine Stone
+まりゅう石		Demon Stone
+きずぐすり		Vulnerary
+とびらのかぎ		Door Key
+てつくず		Silver Key (fiddling with google gives "iron scrap"; play for context
+はねばしのかぎ	Bridge Key
+たからのかぎ		Chest Key
+パワーリング		Power Ring
+りゅうのたて		Dragon Shield
+ひでんのしょ		Secret Book
+スピードリング	Speed Ring
+まよけ		Talisman
+てんしのころも	Angelic Robe
+めがみぞう		Goddess Icon
+マニュアル		Manual
+ブーツ		Boots
+せいすい		Pure Water
+きしくんしょう		Knight Crest
+ゆうしゃあかし	Hero Crest
+しさいのゆびわ	Guiding Ring
+ひりゅうのむち	Dragon Whip
+オリオンのや		Orion's Bolt
+だいちのオーブ	Earth Orb
+いのちのオーブ	Life Orb
+アイオテのたて	Iote's Shield
+星のビラクリア	Biraku Shard (these all seem to have been messed with)
+星のロナーン	Ronan Shard (it boosts res and it's close to his name?)
+星のオード		Odo Shard (i saw odo in the romaji though google said aether)
+星のボアルス	Bonus Shard (someone who understands Japanese HELP)
+星のワコブ		Bad Level Shard (i read WKB is Japanese FE jargon for skill/luck/wlvl)
+星のマジタリス	Maji Talis Shard (oh, it's a pair, saji and maji... and a pun AHH, majittarius?)
+星のラナ		Lana Shard (celice and her best fe4 pairing)
+星のムオン		Muon Shard (ain't that some science particle or another)
+星のバルボ		Valbo Shard (the name matches! Gotcha!)
+星のバヌトゥス	Banutu Shard (his name's in there)
+星のサジタリス	Sajittarius Shard (it's a bloody pun, real shard name and pairs with the maji shard)
+星のサギッシオ	Sagishio Shard (I got nothing)
+シルバーカード	Silver Card
+シルバーカード	Silver Card
+メンバーカード	Member Card
+ひかりのオーブ	Light Orb
+ほしのオーブ		Star Orb
+
