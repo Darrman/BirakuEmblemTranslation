@@ -1870,6 +1870,7 @@ FlyDr[X]
 //POINTER #1 @ $5ACE8 - STRING #1 @ $5AD28
 
 #W16($5ACE8)
+//Attack
 <$08><$01> Fight<$09><$01>[X]
 
 
@@ -1972,12 +1973,14 @@ FlyDr[X]
 //POINTER #17 @ $5AD08 - STRING #17 @ $5AE48
 
 #W16($5AD08)
+//Dismount
 <$08><$01> Dsmnt<$09><$01>[X]
 
 
 //POINTER #18 @ $5AD0A - STRING #18 @ $5AE5A
 
 #W16($5AD0A)
+//Weapon
 <$08><$01> Weapn<$09><$01>[X]
 
 
@@ -1990,24 +1993,28 @@ FlyDr[X]
 //POINTER #20 @ $5AD0E - STRING #20 @ $5AE7E
 
 #W16($5AD0E)
+//Supply
 <$08><$01> Suply<$09><$01>[X]
 
 
 //POINTER #21 @ $5AD10 - STRING #21 @ $5AE90
 
 #W16($5AD10)
+//Config, but since it only controls animations and to match FE4...
 <$08><$01> Anims<$09><$01>[X]
 
 
 //POINTER #22 @ $5AD12 - STRING #22 @ $5AEA2
 
 #W16($5AD12)
+//Top of the box
 <$05><$01><$06><$01><$06><$01><$06><$01><$06><$01><$06><$01><$06><$01><$07><$01>[X]
 
 
 //POINTER #23 @ $5AD14 - STRING #23 @ $5AEB4
 
 #W16($5AD14)
+//Bottom of the box
 <$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
 
 
@@ -2023,3 +2030,455 @@ FlyDr[X]
 <$08><$01> Optn<$09><$01>[N]
 <$08><$01> End <$09><$01>[N]
 <$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
+
+//BLOCK #003 NAME:		Battle Messages
+
+#HDR($38200)
+#JMP($4305B, $43582)
+
+//POINTER #0 @ $42FDB - STRING #0 @ $4305B
+
+#W16($42FDB)
+//Critical hit
+//<$CC><$00><$CD><$00>の<$CE><$00><$D3><$00>!!![X]
+Crit![X]
+
+//POINTER #1 @ $42FDD - STRING #1 @ $4306D
+
+#W16($42FDD)
+//Normal attack
+//の<$D2><$00><$D3><$00>[X]
+'s attack[X]
+
+//POINTER #2 @ $42FDF - STRING #2 @ $43075
+
+#W16($42FDF)
+//Counter attack
+//のはん<$D3><$00>[X]
+'s counter[X]
+
+//POINTER #3 @ $42FE1 - STRING #3 @ $4307F
+
+#W16($42FE1)
+//のさい<$D2><$00><$D3><$00>[X]
+//Double attack
+ doubles[X]
+
+//POINTER #4 @ $42FE3 - STRING #4 @ $4308B
+
+#W16($42FE3)
+//Attack dodged
+//は すばやくみをかわした![X]
+ dodged[X]
+
+//POINTER #5 @ $42FE5 - STRING #5 @ $430A7
+
+#W16($42FE5)
+//Grammatical stuff
+//は[X]
+ [X]
+
+//POINTER #6 @ $42FE7 - STRING #6 @ $430AB
+
+#W16($42FE7)
+//More grammar
+//の[X]
+'s [X]
+
+//POINTER #7 @ $42FE9 - STRING #7 @ $430AF
+
+#W16($42FE9)
+//Took damage A
+//のダメージを うけた[X]
+ took [X]
+
+//POINTER #8 @ $42FEB - STRING #8 @ $430C5
+
+#W16($42FEB)
+//Took damage B
+//のダメージを あたえた[X]
+ damage[X]
+
+//POINTER #9 @ $42FED - STRING #9 @ $430DD
+
+#W16($42FED)
+//Got what?
+//のけいけんちをえた[X]
+ got [X]
+
+//POINTER #10 @ $42FEF - STRING #10 @ $430F1
+
+#W16($42FEF)
+//Staff usage
+//をつかった[X]
+ used [X]
+
+//POINTER #11 @ $42FF1 - STRING #11 @ $430FD
+
+#W16($42FF1)
+//Magic usage
+//を <$D1><$00>えた[X]
+ cast [X]
+
+//POINTER #12 @ $42FF3 - STRING #12 @ $43109
+
+#W16($42FF3)
+//HP restoration
+//はHPが[X]
+ healed
+
+//POINTER #13 @ $42FF5 - STRING #13 @ $43113
+
+#W16($42FF5)
+//Who knows?
+//<$CF><$00><$D0><$00>した[X]
+![X]
+
+//POINTER #14 @ $42FF7 - STRING #14 @ $4311D
+
+#W16($42FF7)
+//Unit death
+//は たおれた[X]
+ fell[X]
+
+//POINTER #15 @ $42FF9 - STRING #15 @ $4312B
+
+#W16($42FF9)
+//Weapon broke
+//は こわれてしまった[X]
+ broke[X]
+
+//POINTER #16 @ $42FFB - STRING #16 @ $43141
+
+#W16($42FFB)
+//No damage
+//は <$D2><$00><$D3><$00>をうけとめた![X]
+ No damage[X]
+
+//POINTER #17 @ $42FFD - STRING #17 @ $43159
+
+#W16($42FFD)
+//Another unit death?
+//をたおした[X]
+ died[X]
+
+//POINTER #18 @ $42FFF - STRING #18 @ $43165
+
+#W16($42FFF)
+//"test1", something pointless
+//<$CF><$00>ヒット[X]
+ [X]
+
+//POINTER #19 @ $43001 - STRING #19 @ $4316F
+
+#W16($43001)
+//Enemy had a thing.
+//をもっていた[X]
+ had[X]
+
+//POINTER #20 @ $43003 - STRING #20 @ $4317D
+
+#W16($43003)
+//You took the thing.
+//をてにいれた[X]
+ got[X]
+
+//POINTER #21 @ $43005 - STRING #21 @ $4318B
+
+#W16($43005)
+//Strength up
+//ちから   [X]
+Str [X]
+
+//POINTER #22 @ $43007 - STRING #22 @ $43199
+
+#W16($43007)
+//Skill up
+//わざ    [X]
+Skl [X]
+
+//POINTER #23 @ $43009 - STRING #23 @ $431A7
+
+#W16($43009)
+//Speed up
+//すばやさ  [X]
+Spd [X]
+
+//POINTER #24 @ $4300B - STRING #24 @ $431B5
+
+#W16($4300B)
+//Luck up
+//こううん  [X]
+Luck [X]
+
+//POINTER #25 @ $4300D - STRING #25 @ $431C3
+
+#W16($4300D)
+//Defence up
+//しゅびりょく[X]
+Def [X]
+
+//POINTER #26 @ $4300F - STRING #26 @ $431D1
+
+#W16($4300F)
+//Weapon Level up
+//ぶきレベル [X]
+WLvl [X]
+
+//POINTER #27 @ $43011 - STRING #27 @ $431DF
+
+#W16($43011)
+//Max HP up
+//さいだいHP[X]
+HP [X]
+
+//POINTER #28 @ $43013 - STRING #28 @ $431ED
+
+#W16($43013)
+//Resistance up
+//まほうぼうぎょ[X]
+Res [X]
+
+//POINTER #29 @ $43015 - STRING #29 @ $431FD
+
+#W16($43015)
+//points!
+//あがった![X]
+![X]
+
+//POINTER #30 @ $43017 - STRING #30 @ $43209
+
+#W16($43017)
+//Level up
+//はレベルが[X]
+ Lv. [X]
+
+//POINTER #31 @ $43019 - STRING #31 @ $43215
+
+#W16($43019)
+//"Became" says google, FE3 reduced to full stop.
+//になった[X]
+.[X]
+
+//POINTER #32 @ $4301B - STRING #32 @ $4321F
+
+#W16($4301B)
+//のけいけんちをうしなった[X]
+//Lost what?
+ lost [X]
+
+
+//POINTER #33 @ $4301D - STRING #33 @ $43239
+
+#W16($4301D)
+//Points up
+//が[X]
+up[X]
+
+//POINTER #34 @ $4301F - STRING #34 @ $4323D
+
+#W16($4301F)
+//Points down
+//さがった[X]
+down[X]
+
+//POINTER #35 @ $43021 - STRING #35 @ $43247
+
+#W16($43021)
+//Always empty
+//[X]
+[X]
+
+//POINTER #36 @ $43023 - STRING #36 @ $43249
+
+#W16($43023)
+//"Rep" what, FE3?
+//が<$CF><$00><$D0><$00>した[X]
+ rep.[X]
+
+//POINTER #37 @ $43025 - STRING #37 @ $43255
+
+#W16($43025)
+//Barrier
+//は まほうぼうぎょが[X]
+'s Res up[X]
+
+//POINTER #38 @ $43027 - STRING #38 @ $4326B
+
+#W16($43027)
+//Barrier 2
+//あがった[X]
+[X]
+
+//POINTER #39 @ $43029 - STRING #39 @ $43275
+
+#W16($43029)
+//Ohm Shard, unused
+//オームのかけらが ひかりくだける[X]
+
+
+//POINTER #40 @ $4302B - STRING #40 @ $43297
+
+#W16($4302B)
+//Ohm
+//は いしきをとりもどした[X]
+ revived![X]
+
+//POINTER #41 @ $4302D - STRING #41 @ $432B1
+
+#W16($4302D)
+//Nothing happened.
+//なにもおこらなかった[X]
+No effect.[X]
+
+//POINTER #42 @ $4302F - STRING #42 @ $432C7
+
+#W16($4302F)
+//Arena rounds
+// ラウンド[X]
+Round[X]
+
+//POINTER #43 @ $43031 - STRING #43 @ $432D3
+
+#W16($43031)
+//Fight!
+// ファイト!![X]
+Go![X]
+
+//POINTER #44 @ $43033 - STRING #44 @ $432E3
+
+#W16($43033)
+//Triangle Attack
+//トライアングルアターック![X]
+Triangle![X]
+
+//POINTER #45 @ $43035 - STRING #45 @ $432FF
+
+#W16($43035)
+//に[X]
+'s [X]
+
+//POINTER #46 @ $43037 - STRING #46 @ $43303
+
+#W16($43037)
+//Dragon transformation
+//へんしんした[X]
+form.[X]
+
+//POINTER #47 @ $43039 - STRING #47 @ $43311
+
+#W16($43039)
+//Promotion
+//クラスチェンジした[X]
+ promoted[X]
+
+//POINTER #48 @ $4303B - STRING #48 @ $43325
+
+#W16($4303B)
+//What curse?
+//は のろいをはなった!![X]
+ broke the curse
+
+//POINTER #49 @ $4303D - STRING #49 @ $4333F
+
+#W16($4303D)
+//Fortify
+//みかたぜんいんのHPが[X]
+All heal [X]
+
+//POINTER #50 @ $4303F - STRING #50 @ $43357
+
+#W16($4303F)
+//Attack sealed
+//は <$D2><$00><$D3><$00>をふうじられた[X]
+ blocked
+
+//POINTER #51 @ $43041 - STRING #51 @ $4336F
+
+#W16($43041)
+//Movement?
+//いどうりょく[X]
+Move[X]
+
+//POINTER #52 @ $43043 - STRING #52 @ $4337D
+
+#W16($43043)
+//Resire
+//のHPを うばった[X]
+'s HP drained[X]
+
+//POINTER #53 @ $43045 - STRING #53 @ $43391
+
+#W16($43045)
+//Had money
+//ゴールドをもっていた[X]
+found[X]
+
+//POINTER #54 @ $43047 - STRING #54 @ $433A7
+
+#W16($43047)
+//Took money
+//ゴールドをてにいれた[X]
+taken[X]
+
+//POINTER #55 @ $43049 - STRING #55 @ $433BD
+
+#W16($43049)
+//Dance
+//は げんきになった![X]
+ move[X]
+
+//POINTER #56 @ $4304B - STRING #56 @ $433D3
+
+#W16($4304B)
+//Warp
+//を いどうさせた[X]
+ warped[X]
+
+//POINTER #57 @ $4304D - STRING #57 @ $433E5
+
+#W16($4304D)
+//Magic seal
+//は てきのまほうをふうじた![X]
+ No damage[X]
+
+//POINTER #58 @ $4304F - STRING #58 @ $43403
+
+#W16($4304F)
+//Rescue
+//を よびよせた[X]
+ is here[X]
+
+//POINTER #59 @ $43051 - STRING #59 @ $43413
+
+#W16($43051)
+//Unlock
+//は とびらをあけた[X]
+ Door open[X]
+
+//POINTER #60 @ $43053 - STRING #60 @ $43427
+
+#W16($43053)
+//Watch 1
+//ふしぎなひかりが[X]
+Can see through[X]
+
+//POINTER #61 @ $43055 - STRING #61 @ $43439
+
+#W16($43055)
+//Watch 2
+//とざされたくうかんを うつしだした![X]
+ceilings.[X]
+
+//POINTER #62 @ $43057 - STRING #62 @ $4345F
+
+#W16($43057)
+//Again 1
+//は みかたぜんいんの[X]
+ All allies[X]
+
+//POINTER #63 @ $43059 - STRING #63 @ $43475
+
+#W16($43059)
+//こうどうりょくを かいふくさせた[X]
+can move again.[X]
