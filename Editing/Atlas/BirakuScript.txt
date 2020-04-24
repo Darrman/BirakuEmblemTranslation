@@ -2674,6 +2674,445 @@ shops[X]
 Conqueror's
 Proof[X]
 
+//BLOCK #007 NAME:		Terrain Descriptions
+
+#JMP($5F7D2, $5FB35)
+
+//POINTER #0 @ $5F68E - STRING #0 @ $5F7D2
+
+#W16($5F68E)
+#W16($5F6A6)
+//へいげん[N]
+//<$F9><$00>ひ : 5[X]
+Plain[N]
+Avo: 5[X]
+
+
+//POINTER #1 @ $5F690 - STRING #1 @ $5F7EC
+
+#W16($5F690)
+#W16($5F6A8)
+//みち[N]
+//<$F9><$00>ひ : 0[X]
+Road[N]
+Avo: 0[X]
+
+
+//POINTER #2 @ $5F692 - STRING #2 @ $5F802
+
+#W16($5F692)
+#W16($5F6AA)
+//かわ[N]
+//<$F9><$00>ひ : 0[X]
+River[N]
+Avo: 0[X]
+
+
+//POINTER #3 @ $5F694 - STRING #3 @ $5F818
+
+#W16($5F694)
+#W16($5F6AC)
+//もり[N]
+//<$F9><$00>ひ :15[X]
+Forest[N]
+Avo:15[X]
+
+
+//POINTER #4 @ $5F696 - STRING #4 @ $5F82E
+
+#W16($5F696)
+#W16($5F6AE)
+#W16($5F6BC)
+//はし[N]
+//<$F9><$00>ひ : 0[X]
+Bridge[N]
+Avo: 0[X]
+
+
+//POINTER #5 @ $5F698 - STRING #5 @ $5F844
+
+#W16($5F698)
+#W16($5F6B0)
+#W16($5F6B6)
+//たかいやま[N]
+//いどうできない[X]
+Peak[X]
+//Blocked[X]
+
+
+//POINTER #6 @ $5F69A - STRING #6 @ $5F860
+
+#W16($5F69A)
+#W16($5F6B2)
+//たき[N]
+//<$F9><$00>ひ : 0[X]
+Waterfl[N]
+Avo: 0[X]
+
+
+//POINTER #7 @ $5F69C - STRING #7 @ $5F876
+
+#W16($5F69C)
+#W16($5F6B4)
+//やま[N]
+//<$F9><$00>ひ :25[X]
+Mountan[N]
+Avo:25[X]
+
+
+//POINTER #8 @ $5F69E - STRING #8 @ $5F88C
+
+#W16($5F69E)
+#W16($5F74C)
+//むら<$D4><$00>[N]
+//<$F9><$00>ひ : 0[X]
+Village[N]
+Avo: 0[X]
+
+
+//POINTER #9 @ $5F6A0 - STRING #9 @ $5F8A4
+
+#W16($5F6A0)
+#W16($5F74E)
+//みんか[N]
+//<$F9><$00>ひ : 0[X]
+House[N]
+Avo: 0[X]
+
+
+//POINTER #10 @ $5F6A2 - STRING #10 @ $5F8BC
+
+#W16($5F6A2)
+//うみ[N]
+//<$F9><$00>ひ :30[X]
+Sea[N]
+Avo:30[X]
+
+
+//POINTER #11 @ $5F6A4 - STRING #11 @ $5F8D2
+
+#W16($5F6A4)
+//さばく[N]
+//<$F9><$00>ひ : 0[X]
+Desert[N]
+Avo: 0[X]
+
+
+//POINTER #21 @ $5F6B8 - STRING #21 @ $5F8EA
+
+#W16($5F6B8)
+#W16($5F6BA)
+//マグマ[N]
+//いどうできない[X]
+Magma[X]
+//Blocked[X]
+
+//POINTER #24 @ $5F6BE - STRING #24 @ $5F902
+
+#W16($5F6BE)
+#W16($5F6EC)
+#W16($5F750)
+//とりで[N]
+//<$F9><$00>ひ :20[N]
+//<$F9><$00><$FA><$00>できる[X]
+Fort[N]
+Avo:20[N]
+Recover[X]
+
+
+//POINTER #25 @ $5F6C0 - STRING #25 @ $5F926
+
+#W16($5F6C0)
+#W16($5F6EA)
+#W16($5F756)
+//<$E3><$00>[N]
+//<$F9><$00>ひ : 0[X]
+Castle[N]
+Avo: 0[X]
+
+
+//POINTER #26 @ $5F6C2 - STRING #26 @ $5F93A
+
+#W16($5F6C2)
+#W16($5F6C4)
+#W16($5F6C6)
+#W16($5F6C8)
+#W16($5F6CA)
+#W16($5F6CE)
+#W16($5F6D0)
+#W16($5F7B0)
+//<$E3><$00><$D4><$00>[N]
+//<$F9><$00>ひ :30[N]
+//<$F9><$00><$FA><$00>できる[X]
+Castle[N]
+Avo:30[N]
+Recover[X]
+
+
+//POINTER #31 @ $5F6CC - STRING #31 @ $5F95C
+
+#W16($5F6CC)
+#W16($5F6D2)
+#W16($5F6D4)
+#W16($5F6D6)
+#W16($5F6DC)
+#W16($5F6E2)
+#W16($5F6E8)
+#W16($5F6EE)
+#W16($5F6F4)
+#W16($5F6FA)
+#W16($5F700)
+#W16($5F706)
+#W16($5F70C)
+#W16($5F712)
+#W16($5F718)
+#W16($5F71E)
+#W16($5F724)
+#W16($5F72A)
+#W16($5F73E)
+#W16($5F7B2)
+//ゆか[N]
+//<$F9><$00>ひ : 0[X]
+Floor[N]
+Avo: 0[N]
+NoMount[X]
+
+
+//POINTER #37 @ $5F6D8 - STRING #37 @ $5F99A
+
+#W16($5F6D8)
+#W16($5F6DE)
+#W16($5F6E4)
+#W16($5F6F0)
+#W16($5F6F6)
+#W16($5F6FC)
+#W16($5F702)
+#W16($5F708)
+#W16($5F70E)
+#W16($5F714)
+#W16($5F71A)
+#W16($5F720)
+#W16($5F726)
+#W16($5F72C)
+#W16($5F7B4)
+#W16($5F7C8)
+#W16($5F7CE)
+//はしら[N]
+//<$F9><$00>ひ :20[X]
+Pillar[N]
+Avo:20[X]
+
+
+//POINTER #38 @ $5F6DA - STRING #38 @ $5F9B2
+
+#W16($5F6DA)
+#W16($5F6E0)
+#W16($5F6E6)
+#W16($5F6F2)
+#W16($5F6F8)
+#W16($5F6FE)
+#W16($5F704)
+#W16($5F70A)
+#W16($5F710)
+#W16($5F716)
+#W16($5F71C)
+#W16($5F722)
+#W16($5F728)
+#W16($5F72E)
+#W16($5F7B6)
+//ぎょくざ[N]
+//<$F9><$00>ひ :30[N]
+//<$F9><$00><$FA><$00>できる[X]
+Throne[N]
+Avo:30[N]
+Recover[X]
+
+
+//POINTER #81 @ $5F730 - STRING #81 @ $5F9D8
+
+#W16($5F730)
+#W16($5F732)
+#W16($5F742)
+#W16($5F744)
+#W16($5F792)
+#W16($5F794)
+#W16($5F796)
+#W16($5F798)
+#W16($5F79A)
+#W16($5F79C)
+#W16($5F79E)
+#W16($5F7A0)
+#W16($5F7A2)
+#W16($5F7A4)
+#W16($5F7A6)
+#W16($5F7A8)
+#W16($5F7AA)
+#W16($5F7AC)
+#W16($5F7BC)
+#W16($5F7BE)
+//いどうふか[X]
+Blocked[X]
+
+
+//POINTER #83 @ $5F734 - STRING #83 @ $5F9E4
+
+#W16($5F734)
+#W16($5F73A)
+#W16($5F754)
+//がれき[N]
+//<$F9><$00>ひ : 0[X]
+Rubble[N]
+Avo: 0[X]
+
+
+//POINTER #84 @ $5F736 - STRING #84 @ $5FA22
+
+#W16($5F736)
+#W16($5F758)
+#W16($5F75C)
+#W16($5F760)
+#W16($5F764)
+#W16($5F768)
+#W16($5F76C)
+#W16($5F76E)
+#W16($5F770)
+#W16($5F774)
+#W16($5F778)
+#W16($5F77C)
+#W16($5F780)
+#W16($5F784)
+#W16($5F788)
+#W16($5F78C)
+#W16($5F790)
+#W16($5F7B8)
+#W16($5F7CA)
+//たからばこ[N]
+//<$F9><$00>ひ : 0[X]
+Chest[N]
+Avo: 0[X]
+
+
+//POINTER #85 @ $5F738 - STRING #85 @ $5F9FC
+
+#W16($5F738)
+#W16($5F75E)
+#W16($5F762)
+#W16($5F766)
+#W16($5F76A)
+#W16($5F772)
+#W16($5F776)
+#W16($5F77A)
+#W16($5F77E)
+#W16($5F782)
+#W16($5F786)
+#W16($5F78A)
+#W16($5F78E)
+#W16($5F7AE)
+#W16($5F7BA)
+//<$F9><$00><$FA><$00>ゆか[N]
+//<$F9><$00>ひ :30[N]
+//<$F9><$00><$FA><$00>できる[X]
+Recover[N]
+Avo:30[N]
+Recover[X]
+
+
+//POINTER #87 @ $5F73C - STRING #87 @ $5FA3E
+
+#W16($5F73C)
+//とびら[N]
+//いどうできない[X]
+Door[X]
+//Blocked[X]
+
+
+//POINTER #89 @ $5F740 - STRING #89 @ $5FA56
+
+#W16($5F740)
+//はねばし[N]
+//いどうできない[X]
+Drawbrg[X]
+//Blocked[X]
+
+//POINTER #92 @ $5F746 - STRING #92 @ $5FA70
+
+#W16($5F746)
+#W16($5F748)
+//いずみ[N]
+//<$F9><$00>ひ : 0[X]
+Stream[N]
+Avo: 0[X]
+
+
+//POINTER #94 @ $5F74A - STRING #94 @ $5FA88
+
+#W16($5F74A)
+#W16($5F75A)
+//どうくつ[N]
+//<$F9><$00>ひ :25[X]
+Tunnel[N]
+Avo:25[X]
+
+
+//POINTER #98 @ $5F752 - STRING #98 @ $5FAA2
+
+#W16($5F752)
+#W16($5F7C4)
+//さいだん[N]
+//いどうできない[X]
+Altar[X]
+//Blocked[X]
+
+
+//POINTER #153 @ $5F7C0 - STRING #153 @ $5FABC
+
+#W16($5F7C0)
+//<$B3><$00>[N]
+//<$F9><$00>ひ : 0[N]
+//かいものできる[X]
+Shop[N]
+Avo: 0[N]
+BuyItem[X]
+
+
+//POINTER #154 @ $5F7C2 - STRING #154 @ $5FAE0
+
+#W16($5F7C2)
+//<$DF><$00><$E0><$00><$E1><$00>[N]
+//<$F9><$00>ひ : 0[N]
+//おかねもうけ[X]
+Arena[N]
+Avo: 0[N]
+WinGold[X]
+
+
+//POINTER #156 @ $5F7C6 - STRING #156 @ $5FB1C
+
+#W16($5F7C6)
+//さいだん[N]
+//<$F9><$00>ひ : 0[X]
+Altar[N]
+Avo: 0[X]
+
+//POINTER #159 @ $5F7CC - STRING #159 @ $5F972
+
+#W16($5F7CC)
+//<$F9><$00>ろう[N]
+//<$F9><$00>ひ : 0[N]
+おりずにいどう[X]
+Corridr[N]
+Avo: 0[X]
+
+
+//POINTER #161 @ $5F7D0 - STRING #161 @ $5FB06
+
+#W16($5F7D0)
+//がけ[N]
+//<$F9><$00>ひ :25[X]
+Cliff[N]
+Avo:25[X]
+
+
 //BLOCK #003 NAME:		Battle Messages
 
 #HDR($38200)
