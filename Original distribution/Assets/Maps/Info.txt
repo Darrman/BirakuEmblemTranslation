@@ -1,0 +1,18 @@
+使用及び改変は自由です。
+
+マップ仕様
+
+オレルアン草原	：チップ番号08、色番号1B、横幅1F、縦幅15
+ペラティ	：チップ番号06、色番号1E、横幅1F、縦幅1A
+メニディ砦	：チップ番号00、色番号10、横幅1F、縦幅17
+マケドニアの森	：チップ番号03、色番号13、横幅1F、縦幅1C
+
+Google Translation:
+Use and modification are free.
+
+Map specifications
+
+(FE1 Ch4) Oreluan grassland: Chip number 08, color number 1B, width 1F, height 15
+(FE1 Ch9) Perativity: Chip number 06, color number 1E, width 1F, height 1A
+(FE1 Ch13) Fort Menidi: Chip number 00, color number 10, width 1F, height 17
+(FE1 Ch21) Macedonian Forest: Chip No. 03, Color No. 13, Width 1F, Height 1C
