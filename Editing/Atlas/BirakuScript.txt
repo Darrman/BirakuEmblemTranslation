@@ -2031,6 +2031,649 @@ FlyDr[X]
 <$08><$01> End <$09><$01>[N]
 <$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
 
+//BLOCK #006 NAME:		Item Descriptions
+
+#JMP($5EA26, $5F68D)
+
+//POINTER #0 @ $5E924 - STRING #0 @ $5EA26
+//All weapons
+#W16($5E924)
+#W16($5E926)
+#W16($5E928)
+#W16($5E92A)
+#W16($5E92C)
+#W16($5E92E)
+#W16($5E930)
+#W16($5E932)
+#W16($5E934)
+#W16($5E936)
+#W16($5E938)
+#W16($5E93A)
+#W16($5E93C)
+#W16($5E93E)
+#W16($5E940)
+#W16($5E942)
+#W16($5E944)
+#W16($5E946)
+#W16($5E948)
+#W16($5E94A)
+#W16($5E94C)
+#W16($5E94E)
+#W16($5E950)
+#W16($5E952)
+#W16($5E954)
+#W16($5E956)
+#W16($5E958)
+#W16($5E95A)
+#W16($5E95C)
+#W16($5E95E)
+#W16($5E960)
+#W16($5E962)
+#W16($5E964)
+#W16($5E966)
+#W16($5E968)
+#W16($5E96A)
+#W16($5E96C)
+#W16($5E96E)
+#W16($5E970)
+#W16($5E972)
+#W16($5E974)
+#W16($5E976)
+#W16($5E978)
+#W16($5E97A)
+#W16($5E97C)
+#W16($5E97E)
+#W16($5E980)
+#W16($5E982)
+#W16($5E984)
+#W16($5E986)
+#W16($5E988)
+#W16($5E98A)
+#W16($5E98C)
+#W16($5E98E)
+#W16($5E990)
+#W16($5E992)
+#W16($5E994)
+#W16($5E996)
+#W16($5E998)
+#W16($5E99A)
+
+Might:[N]
+Hit  :[N]
+Wt   :[N]
+Crit :[N]
+WpnLV:[X]
+
+
+//POINTER #60 @ $5E99C - STRING #60 @ $5F594
+
+#W16($5E99C) //Earth Orb
+#W16($5E99E) //Shield of Seals
+#W16($5E9A0) //Dark Orb
+#W16($5E9FA) //Earth Orb 2
+#W16($5E9FC) //Life Orb
+#W16($5EA1E) //Light Orb
+#W16($5EA20) //Star Orb
+#W16($5EA22) //Pointer 127
+?????[X]
+
+//POINTER #63 @ $5E9A2 - STRING #63 @ $5EA6C
+
+#W16($5E9A2) //Fire Emblem
+//アカネイアのはしゃの[N]
+//あかし[X]
+Conqueror's[N]
+Proof[X]
+
+//POINTER #64 @ $5E9A4 - STRING #64 @ $5EA8A
+
+#W16($5E9A4) //Heal
+//<$04><$01><$F8><$00>LV   1[N]
+//(EX)    14[N]
+//HPをちから+10[N]
+//<$F9><$00><$FA><$00>する[N]
+//ちりょうの杖[X]
+WLv 1[N]
+EXP 14[N]
+Restores[N]
+Str +10 HP[N]
+to an ally[X]
+
+//POINTER #65 @ $5E9A6 - STRING #65 @ $5EADA
+
+#W16($5E9A6) //Recover
+//<$04><$01><$F8><$00>LV   3[N]
+//(EX)    30[N]
+//HPをすべて[N]
+//<$F9><$00><$FA><$00>する[N]
+//ちりょうの杖[X]
+WLv 3[N]
+EXP 30[N]
+Restores[N]
+all HP to[N]
+an ally.[X]
+
+//POINTER #66 @ $5E9A8 - STRING #66 @ $5EB24
+
+#W16($5E9A8) //Physic
+//<$04><$01><$F8><$00>LV   7[N]
+//(EX)    30[N]
+//とおくにいるみかたの[N]
+//HPをちから+10[N]
+//<$F9><$00><$FA><$00>する ちりょうの杖[X]
+WLv 7[N]
+EXP 30[N]
+Heal Str+10[N]
+HP to a far[N]
+away ally[X]
+
+//POINTER #67 @ $5E9AA - STRING #67 @ $5EB8A
+
+#W16($5E9AA) //Mend
+//<$04><$01><$F8><$00>LV   2[N]
+//(EX)    20[N]
+//HPをちから+20[N]
+//<$F9><$00><$FA><$00>する[N]
+//ちりょうの杖[X]
+WLv 2[N]
+EXP 20[N]
+Restores[N]
+Str +20 HP[N]
+to an ally[X]
+
+//POINTER #68 @ $5E9AC - STRING #68 @ $5EBDA
+
+#W16($5E9AC) //Warp
+//<$04><$01><$F8><$00>LV   5[N]
+//(EX)    42[N]
+//みかたをとおくに[N]
+//とばすことができる[N]
+//ちょうやくの杖[X]
+WLv 5[N]
+EXP 42[N]
+Move ally[N]
+anywhere on[N]
+the map[X]
+
+//POINTER #69 @ $5E9AE - STRING #69 @ $5EC34
+
+#W16($5E9AE) //Barrier
+//<$04><$01><$F8><$00>LV   8[N]
+//(EX)    30[N]
+//まほうぼうぎょを7[N]
+//あげることができる[N]
+//まほうぼうぎょの杖[X]
+WLv 8[N]
+EXP 30[N]
++7 Res to[N]
+ally, -1[N]
+every turn[X]
+
+//POINTER #70 @ $5E9B0 - STRING #70 @ $5EC94
+
+#W16($5E9B0) //Hammerne
+//<$04><$01><$F8><$00>LV  ーー[N]
+//(EX)    58[N]
+//<$04><$01><$F8><$00>をもとにもどす[N]
+//しゅうりの杖[N]
+//レナ マリーシアよう[X]
+PRF Rena,[N]
+Malliesia[N]
+EXP 58[N]
+Repairs a[N]
+weapon[X]
+
+//POINTER #71 @ $5E9B2 - STRING #71 @ $5ECF0
+
+#W16($5E9B2) //Fortify
+//<$04><$01><$F8><$00>LV   8[N]
+//(EX)    30[N]
+//すべてのみかたのHPを[N]
+//ちから+10<$F9><$00><$FA><$00>する[N]
+//ちりょうの杖[X]
+WLv 8[N]
+EXP 30[N]
+Heal Str+10[N]
+HP to all[N]
+allies[X]
+
+//POINTER #72 @ $5E9B4 - STRING #72 @ $5ED50
+
+#W16($5E9B4) //Silence
+//<$04><$01><$F8><$00>LV  10[N]
+//(EX)    58[N]
+//つぎのターンまで[N]
+//てきもみかたも[N]
+//まほうがつかえない[X]
+WLv 10[N]
+EXP 58[N]
+Stops all[N]
+magic for[N]
+one turn[X]
+
+//POINTER #73 @ $5E9B6 - STRING #73 @ $5EDAA
+
+#W16($5E9B6) //Rescue
+//<$04><$01><$F8><$00>LV   4[N]
+//(EX)    58[N]
+//とおくのみかたを[N]
+//ちかくによびよせ[N]
+//だれでもつかえる[X]
+WLv 4[N]
+EXP 58[N]
+Move a far[N]
+away ally[N]
+to the user[X]
+
+//POINTER #74 @ $5E9B8 - STRING #74 @ $5EE04
+
+#W16($5E9B8) //Ohm 1
+//<$04><$01><$F8><$00>LV  ーー[N]
+//(EX)    58[N]
+//さいだんのまえでしよう[N]
+//いきかえりの杖[N]
+//エリスせんよう[X]
+PRF Ellis[N]
+EXP 58[N]
+Revives an[N]
+ally from[N]
+the dead[X]
+
+
+//POINTER #75 @ $5E9BA - STRING #75 @ $5EECC
+
+#W16($5E9BA) //Unlock
+//<$04><$01><$F8><$00>LV   8[N]
+//(EX)    58[N]
+//とびらをあける[N]
+//かいじょうの杖[X]
+WLv 8[N]
+EXP 58[N]
+Use to open[N]
+a nearby[N]
+door[X]
+
+
+//POINTER #76 @ $5E9BC - STRING #76 @ $5EF10
+
+#W16($5E9BC) //Thief
+//<$04><$01><$F8><$00>LV   1[N]
+//(EX)    56[N]
+//とおくの<$F5><$00><$F6><$00>の[N]
+//なかみをとる杖[X]
+WLv 1[N]
+EXP 56[N]
+Opens far[N]
+away chests[X]
+
+
+//POINTER #77 @ $5E9BE - STRING #77 @ $5EF68
+
+#W16($5E9BE) //Watch
+//<$04><$01><$F8><$00>LV  11[N]
+//(EX)    56[N]
+//やねでなかがみえない[N]
+//しろのないぶをみる[N]
+//とうしの杖[X]
+WLv 11[N]
+EXP 56[N]
+Shows the[N]
+insides of[N]
+buildings[X]
+
+
+//POINTER #78 @ $5E9C0 - STRING #78 @ $5EFC2
+
+#W16($5E9C0) //Again
+//<$04><$01><$F8><$00>LV  20[N]
+//(EX)    56[N]
+//いどうずみのユニットを[N]
+//もとにもどす[N]
+//いどうかいじょの杖[X]
+WLv 20[N]
+EXP 56[N]
+All allies[N]
+get to move[N]
+again[X]
+
+
+//POINTER #79 @ $5E9C2 - STRING #79 @ $5F020
+
+#W16($5E9C2) //Fire Stone
+//マムクートがつかうと[N]
+//かりゅうにへんしんする[X]
+Use to turn[N]
+into a Fire[N]
+Dragon[X]
+
+//POINTER #80 @ $5E9C4 - STRING #80 @ $5EE60
+
+#W16($5E9C4) //Ohm 2
+//<$04><$01><$F8><$00>LV  16[N]
+//(EX)    58[N]
+//さいだんのちゅうおうで[N]
+//しよう いきかえりの杖[X]
+WLv 16[N]
+EXP 58[N]
+Revives an[N]
+ally from[N]
+the dead[X]
+
+
+//POINTER #81 @ $5E9C6 - STRING #81 @ $5F04E
+
+#W16($5E9C6) //Ice Stone
+//マムクートがつかうと[N]
+//ひょうりゅうにへんしん[N]
+//する[X]
+Use to turn[N]
+into an Ice[N]
+Dragon[X]
+
+
+//POINTER #82 @ $5E9C8 - STRING #82 @ $5F082
+
+#W16($5E9C8) //Flying Stone
+//マムクートがつかうと[N]
+//ひりゅうにへんしんする[X]
+Use to turn[N]
+into a[N]
+Flying[N]
+Dragon[X]
+
+//POINTER #83 @ $5E9CA - STRING #83 @ $5F0B0
+
+#W16($5E9CA) //Earth Stone
+//マムクートがつかうと[N]
+//ちりゅうにへんしんする[X]
+Use to turn[N]
+into an[N]
+Earth[N]
+Dragon[X]
+
+//POINTER #84 @ $5E9CC - STRING #84 @ $5F0DE
+
+#W16($5E9CC) //Dark Stone, unused
+//てつくずをながめた[N]
+//ずいぶんおもそうな[N]
+//てつクズだ![X]
+
+
+//POINTER #85 @ $5E9CE - STRING #85 @ $5F114
+
+#W16($5E9CE) //Divine Stone
+//マムクートがつかうと[N]
+//しんりゅうにへんしん[N]
+//する[N]
+//チキせんよう[X]
+Use to turn[N]
+into a[N]
+Divine[N]
+Dragon,[N]
+Chiki only[X]
+
+
+//POINTER #86 @ $5E9D0 - STRING #86 @ $5F154
+
+#W16($5E9D0) //Demon Stone
+//マムクートがつかうと[N]
+//まりゅうにへんしん[N]
+//する[X]
+Use to turn[N]
+into a[N]
+Demon[N]
+Dragon[X]
+
+//POINTER #87 @ $5E9D2 - STRING #87 @ $5F184
+
+#W16($5E9D2) //Vulnerary
+//1<$F9><$00>につきHPを10[N]
+//<$F9><$00><$FA><$00>する[X]
+Restore 10[N]
+HP per use[X]
+
+//POINTER #88 @ $5E9D4 - STRING #88 @ $5F1A4
+
+#W16($5E9D4) //Door Key
+//とびらをあける[X]
+Open doors[X]
+
+//POINTER #89 @ $5E9D6 - STRING #89 @ $5F0DE
+
+#W16($5E9D6) //Silver Key, unused
+//てつくずをながめた[N]
+//ずいぶんおもそうな[N]
+//てつクズだ![X]
+
+
+//POINTER #90 @ $5E9D8 - STRING #90 @ $5F1CA
+
+#W16($5E9D8) //Bridge Key
+//はねばしをあげるために[N]
+//しようする[X]
+Lowers[N]
+drawbridges[X]
+
+//POINTER #91 @ $5E9DA - STRING #91 @ $5F1EE
+
+#W16($5E9DA) //Chest Key
+//<$F5><$00><$F6><$00>をあけて[N]
+//なかみがうばえる[X]
+Open chests[X]
+
+
+//POINTER #92 @ $5E9DC - STRING #92 @ $5F20E
+
+#W16($5E9DC) //Power Ring
+//しようするとちからが[N]
+//4あがる[X]
+Str+4[X]
+
+//POINTER #93 @ $5E9DE - STRING #93 @ $5F22E
+
+#W16($5E9DE) //Dragon Shield
+//しようするとしゅびが[N]
+//3あがる[X]
+Def+3[X]
+
+//POINTER #94 @ $5E9E0 - STRING #94 @ $5F24E
+
+#W16($5E9E0) //Secret Book
+//しようするとわざが[N]
+//5あがる[X]
+Skl+5[X]
+
+//POINTER #95 @ $5E9E2 - STRING #95 @ $5F26C
+
+#W16($5E9E2) //Speed Ring
+//しようするとはやさが[N]
+//5あがる[X]
+Spd+5[X]
+
+//POINTER #96 @ $5E9E4 - STRING #96 @ $5F28C
+
+#W16($5E9E4) //Talisman
+//しようすると[N]
+//まほうぼうぎょが[N]
+//3あがる[X]
+Res+3[X]
+
+//POINTER #97 @ $5E9E6 - STRING #97 @ $5F2B6
+
+#W16($5E9E6) //Angelic Robe
+//しようすると[N]
+//さいだいHPが7あがる[X]
+Max HP+7[X]
+
+//POINTER #98 @ $5E9E8 - STRING #98 @ $5F2DC
+
+#W16($5E9E8) //Goddess Icon
+//しようすると[N]
+//うんのよさが5あがる[X]
+Luck+5[X]
+
+//POINTER #99 @ $5E9EA - STRING #99 @ $5F300
+
+#W16($5E9EA) //Manual
+//しようすると[N]
+//<$04><$01><$F8><$00>LVが5あがる[X]
+WLvl+5[X]
+
+//POINTER #100 @ $5E9EC - STRING #100 @ $5F322
+
+#W16($5E9EC) //Boots
+//しようすると[N]
+//いどうりょくが4あがる[N]
+//さいだい12まであがる[X]
+Move+4[N]
+Cap is 12[X]
+
+//POINTER #101 @ $5E9EE - STRING #101 @ $5F360
+
+#W16($5E9EE) //Pure Water
+//しようすると[N]
+//まほうぼうぎょが[N]
+//7あがる[X]
+Use to give[N]
++7 Res for[N]
+a while[X]
+
+//POINTER #102 @ $5E9F0 - STRING #102 @ $5F38A
+
+#W16($5E9F0) //Knight Crest
+//ナイト<$FB><$00>がLV10で[N]
+//じょうきゅうしょくに[N]
+//クラスチェンジできる[N]
+//てんしょくアイテム[X]
+Promote[N]
+Cavalier[N]
+Armour[X]
+
+//POINTER #103 @ $5E9F2 - STRING #103 @ $5F3E0
+
+#W16($5E9F2) //Hero Crest
+//ようへいがLV10で[N]
+//ゆうしゃに[N]
+//クラスチェンジできる[N]
+//てんしょくアイテム[X]
+Promote[N]
+Mercenary[X]
+
+//POINTER #104 @ $5E9F4 - STRING #104 @ $5F42C
+
+#W16($5E9F4) //Guiding Ring
+//まどうしやシスターが[N]
+//LV10で[N]
+//じょうきゅうしょくに[N]
+//クラスチェンジできる[N]
+//てんしょくアイテム[X]
+Promote[N]
+Mage[N]
+Cleric[X]
+
+//POINTER #105 @ $5E9F6 - STRING #105 @ $5F48E
+
+#W16($5E9F6) //Elysian Whip
+//ペガサスナイトが[N]
+//LV10で[N]
+//ドラゴンナイトに[N]
+//クラスチェンジできる[N]
+//てんしょくアイテム[X]
+Promote[N]
+Pegasus[X]
+
+//POINTER #106 @ $5E9F8 - STRING #106 @ $5F4E8
+
+#W16($5E9F8) //Orion's Bolt
+//ゆみ<$FB><$00>がLV10で[N]
+//じょうきゅうしょくに[N]
+//クラスチェンジできる[N]
+//てんしょくアイテム[X]
+Promote[N]
+Archer[N]
+Hunter[X]
+
+//POINTER #109 @ $5E9FE - STRING #109 @ $5F53C
+
+#W16($5E9FE) //Iote's Shield
+//とくしゅこうかを[N]
+//むこうにするたて[N]
+//これをもっていると[N]
+//<$04><$01><$F8><$00>によるとっこうが[N]
+//なくなる[X]
+Negates[N]
+effective[N]
+damage[X]
+
+//POINTER #110 @ $5EA00 - STRING #110 @ $5F5A0
+#W16($5EA00) //Star Shards
+#W16($5EA02)
+#W16($5EA04)
+#W16($5EA06)
+#W16($5EA08)
+#W16($5EA0A)
+#W16($5EA0C)
+#W16($5EA0E)
+#W16($5EA10)
+#W16($5EA12)
+#W16($5EA14)
+//星のオーブのカケラ[X]
+Star Shard[X]
+
+
+//POINTER #121 @ $5EA16 - STRING #121 @ $5F5B4
+
+#W16($5EA16) //This shard has a different desc
+//Author babbling about girls, judging by google
+//このかけらのおかげで[N]
+//かわいいかのじょが[N]
+//できました[N]
+//だんせい 25[X]
+Get 'em all[N]
+and you'll[N]
+see a cute[N]
+girl![X]
+
+//POINTER #122 @ $5EA18 - STRING #122 @ $5F5FA
+
+#W16($5EA18) //Ohm Shard, unused and has Silver Card desc
+//これをもっていると[N]
+//しょじアイテムの[N]
+//うりねが[N]
+//はんがくになる[X]
+
+
+//POINTER #123 @ $5EA1A - STRING #123 @ $5F5FA
+
+#W16($5EA1A) //Silver Card
+//これをもっていると[N]
+//しょじアイテムの[N]
+//うりねが[N]
+//はんがくになる[X]
+Can buy[N]
+items for[N]
+half the[N]
+price[X]
+
+//POINTER #124 @ $5EA1C - STRING #124 @ $5F63A
+
+#W16($5EA1C) //Member Card
+//このせかいのどこかに[N]
+//ある ひみつのみせに[N]
+//はいれる[X]
+Can enter[N]
+secret[N]
+shops[X]
+
+
+//POINTER #128 @ $5EA24 - STRING #128 @ $5F670
+
+#W16($5EA24) //Another FE?
+//アカネイアのはしゃの[N]
+//あかし[X]
+Conqueror's
+Proof[X]
+
 //BLOCK #003 NAME:		Battle Messages
 
 #HDR($38200)
@@ -2482,3 +3125,6 @@ ceilings.[X]
 #W16($43059)
 //こうどうりょくを かいふくさせた[X]
 can move again.[X]
+
+
+
