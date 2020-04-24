@@ -2,6 +2,7 @@
 *.sfc
 *.srm
 *.z**
-!.zip
+!*.zip
 
 *.png
+
