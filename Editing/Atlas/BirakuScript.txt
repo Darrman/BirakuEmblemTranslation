@@ -2816,8 +2816,8 @@ Magma[X]
 //<$F9><$00>ひ :20[N]
 //<$F9><$00><$FA><$00>できる[X]
 Fort[N]
-Avo:20[N]
-Recover[X]
+Avo:20[X]
+//Recover[X]
 
 
 //POINTER #25 @ $5F6C0 - STRING #25 @ $5F926
@@ -2845,8 +2845,8 @@ Avo: 0[X]
 //<$F9><$00>ひ :30[N]
 //<$F9><$00><$FA><$00>できる[X]
 Castle[N]
-Avo:30[N]
-Recover[X]
+Avo:30[X]
+//Recover[X]
 
 
 //POINTER #31 @ $5F6CC - STRING #31 @ $5F95C
@@ -2874,8 +2874,8 @@ Recover[X]
 //ゆか[N]
 //<$F9><$00>ひ : 0[X]
 Floor[N]
-Avo: 0[N]
-NoMount[X]
+Avo: 0[X]
+//NoMount[X]
 
 
 //POINTER #37 @ $5F6D8 - STRING #37 @ $5F99A
@@ -2924,8 +2924,8 @@ Avo:20[X]
 //<$F9><$00>ひ :30[N]
 //<$F9><$00><$FA><$00>できる[X]
 Throne[N]
-Avo:30[N]
-Recover[X]
+Avo:30[X]
+//Recover[X]
 
 
 //POINTER #81 @ $5F730 - STRING #81 @ $5F9D8
@@ -3013,8 +3013,8 @@ Avo: 0[X]
 //<$F9><$00>ひ :30[N]
 //<$F9><$00><$FA><$00>できる[X]
 Recover[N]
-Avo:30[N]
-Recover[X]
+Avo:30[X]
+//Recover[X]
 
 
 //POINTER #87 @ $5F73C - STRING #87 @ $5FA3E
@@ -3071,8 +3071,8 @@ Altar[X]
 //<$F9><$00>ひ : 0[N]
 //かいものできる[X]
 Shop[N]
-Avo: 0[N]
-BuyItem[X]
+Avo: 0[X]
+//BuyItem[X]
 
 
 //POINTER #154 @ $5F7C2 - STRING #154 @ $5FAE0
@@ -3082,8 +3082,8 @@ BuyItem[X]
 //<$F9><$00>ひ : 0[N]
 //おかねもうけ[X]
 Arena[N]
-Avo: 0[N]
-WinGold[X]
+Avo: 0[X]
+//WinGold[X]
 
 
 //POINTER #156 @ $5F7C6 - STRING #156 @ $5FB1C
@@ -3099,7 +3099,7 @@ Avo: 0[X]
 #W16($5F7CC)
 //<$F9><$00>ろう[N]
 //<$F9><$00>ひ : 0[N]
-おりずにいどう[X]
+//おりずにいどう[X]
 Corridr[N]
 Avo: 0[X]
 
