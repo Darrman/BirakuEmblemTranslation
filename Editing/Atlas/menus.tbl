@@ -78,4 +78,5 @@ F400=+
 FC00=?
 FE00=:
 FDFF=[N]
+FEFF=[N2]
 FFFF=[X]
