@@ -1318,132 +1318,148 @@ Biraku[X]
 Biraku[X]
   4108 W16       ScriptPos $5D2CC PointerPos $5D28E PointerValue $D0CC
 Biraku[X]
-  4115 HDR       Header size is now $38200
-  4116 JMP       ROM Position is now $4305B with max bound of $43582
-  4120 W16       ScriptPos $4305B PointerPos $42FDB PointerValue $AE5B
+  4115 JMP       ROM Position is now $5A166 with max bound of $5A1E9
+  4119 W16       ScriptPos $5A166 PointerPos $5A164 PointerValue $9F66
 Biraku[X]
-  4127 W16       ScriptPos $43067 PointerPos $42FDD PointerValue $AE67
+  4129 JMP       ROM Position is now $5C844 with max bound of $5CB4D
+  4133 W16       ScriptPos $5C844 PointerPos $5C838 PointerValue $C644
 Biraku[X]
-  4134 W16       ScriptPos $4307B PointerPos $42FDF PointerValue $AE7B
+  4139 W16       ScriptPos $5C85A PointerPos $5C83A PointerValue $C65A
 Biraku[X]
-  4141 W16       ScriptPos $43091 PointerPos $42FE1 PointerValue $AE91
+  4147 W16       ScriptPos $5C914 PointerPos $5C83C PointerValue $C714
 Biraku[X]
-  4148 W16       ScriptPos $430A3 PointerPos $42FE3 PointerValue $AEA3
+  4155 W16       ScriptPos $5C9CE PointerPos $5C83E PointerValue $C7CE
 Biraku[X]
-  4155 W16       ScriptPos $430B3 PointerPos $42FE5 PointerValue $AEB3
+  4163 W16       ScriptPos $5CA88 PointerPos $5C840 PointerValue $C888
 Biraku[X]
-  4162 W16       ScriptPos $430B7 PointerPos $42FE7 PointerValue $AEB7
+  4174 W16       ScriptPos $5CB0C PointerPos $5C842 PointerValue $C90C
 Biraku[X]
-  4169 W16       ScriptPos $430BF PointerPos $42FE9 PointerValue $AEBF
+  4183 HDR       Header size is now $38200
+  4184 JMP       ROM Position is now $4305B with max bound of $43582
+  4188 W16       ScriptPos $4305B PointerPos $42FDB PointerValue $AE5B
 Biraku[X]
-  4176 W16       ScriptPos $430CD PointerPos $42FEB PointerValue $AECD
+  4195 W16       ScriptPos $43067 PointerPos $42FDD PointerValue $AE67
 Biraku[X]
-  4183 W16       ScriptPos $430DD PointerPos $42FED PointerValue $AEDD
+  4202 W16       ScriptPos $4307B PointerPos $42FDF PointerValue $AE7B
 Biraku[X]
-  4190 W16       ScriptPos $430E9 PointerPos $42FEF PointerValue $AEE9
+  4209 W16       ScriptPos $43091 PointerPos $42FE1 PointerValue $AE91
 Biraku[X]
-  4197 W16       ScriptPos $430F7 PointerPos $42FF1 PointerValue $AEF7
+  4216 W16       ScriptPos $430A3 PointerPos $42FE3 PointerValue $AEA3
 Biraku[X]
-  4204 W16       ScriptPos $43105 PointerPos $42FF3 PointerValue $AF05
+  4223 W16       ScriptPos $430B3 PointerPos $42FE5 PointerValue $AEB3
 Biraku[X]
-  4211 W16       ScriptPos $43113 PointerPos $42FF5 PointerValue $AF13
+  4230 W16       ScriptPos $430B7 PointerPos $42FE7 PointerValue $AEB7
 Biraku[X]
-  4218 W16       ScriptPos $43117 PointerPos $42FF7 PointerValue $AF17
+  4237 W16       ScriptPos $430BF PointerPos $42FE9 PointerValue $AEBF
 Biraku[X]
-  4225 W16       ScriptPos $43123 PointerPos $42FF9 PointerValue $AF23
+  4244 W16       ScriptPos $430CD PointerPos $42FEB PointerValue $AECD
 Biraku[X]
-  4232 W16       ScriptPos $43131 PointerPos $42FFB PointerValue $AF31
+  4251 W16       ScriptPos $430DD PointerPos $42FED PointerValue $AEDD
 Biraku[X]
-  4239 W16       ScriptPos $43147 PointerPos $42FFD PointerValue $AF47
+  4258 W16       ScriptPos $430E9 PointerPos $42FEF PointerValue $AEE9
 Biraku[X]
-  4246 W16       ScriptPos $43153 PointerPos $42FFF PointerValue $AF53
+  4265 W16       ScriptPos $430F7 PointerPos $42FF1 PointerValue $AEF7
 Biraku[X]
-  4253 W16       ScriptPos $43157 PointerPos $43001 PointerValue $AF57
+  4272 W16       ScriptPos $43105 PointerPos $42FF3 PointerValue $AF05
 Biraku[X]
-  4260 W16       ScriptPos $43161 PointerPos $43003 PointerValue $AF61
+  4279 W16       ScriptPos $43113 PointerPos $42FF5 PointerValue $AF13
 Biraku[X]
-  4267 W16       ScriptPos $4316B PointerPos $43005 PointerValue $AF6B
+  4286 W16       ScriptPos $43117 PointerPos $42FF7 PointerValue $AF17
 Biraku[X]
-  4274 W16       ScriptPos $43175 PointerPos $43007 PointerValue $AF75
+  4293 W16       ScriptPos $43123 PointerPos $42FF9 PointerValue $AF23
 Biraku[X]
-  4281 W16       ScriptPos $4317F PointerPos $43009 PointerValue $AF7F
+  4300 W16       ScriptPos $43131 PointerPos $42FFB PointerValue $AF31
 Biraku[X]
-  4288 W16       ScriptPos $43189 PointerPos $4300B PointerValue $AF89
+  4307 W16       ScriptPos $43147 PointerPos $42FFD PointerValue $AF47
 Biraku[X]
-  4295 W16       ScriptPos $43195 PointerPos $4300D PointerValue $AF95
+  4314 W16       ScriptPos $43153 PointerPos $42FFF PointerValue $AF53
 Biraku[X]
-  4302 W16       ScriptPos $4319F PointerPos $4300F PointerValue $AF9F
+  4321 W16       ScriptPos $43157 PointerPos $43001 PointerValue $AF57
 Biraku[X]
-  4309 W16       ScriptPos $431AB PointerPos $43011 PointerValue $AFAB
+  4328 W16       ScriptPos $43161 PointerPos $43003 PointerValue $AF61
 Biraku[X]
-  4316 W16       ScriptPos $431B3 PointerPos $43013 PointerValue $AFB3
+  4335 W16       ScriptPos $4316B PointerPos $43005 PointerValue $AF6B
 Biraku[X]
-  4323 W16       ScriptPos $431BD PointerPos $43015 PointerValue $AFBD
+  4342 W16       ScriptPos $43175 PointerPos $43007 PointerValue $AF75
 Biraku[X]
-  4330 W16       ScriptPos $431C1 PointerPos $43017 PointerValue $AFC1
+  4349 W16       ScriptPos $4317F PointerPos $43009 PointerValue $AF7F
 Biraku[X]
-  4337 W16       ScriptPos $431CD PointerPos $43019 PointerValue $AFCD
+  4356 W16       ScriptPos $43189 PointerPos $4300B PointerValue $AF89
 Biraku[X]
-  4344 W16       ScriptPos $431D1 PointerPos $4301B PointerValue $AFD1
+  4363 W16       ScriptPos $43195 PointerPos $4300D PointerValue $AF95
 Biraku[X]
-  4352 W16       ScriptPos $431DF PointerPos $4301D PointerValue $AFDF
+  4370 W16       ScriptPos $4319F PointerPos $4300F PointerValue $AF9F
 Biraku[X]
-  4359 W16       ScriptPos $431E5 PointerPos $4301F PointerValue $AFE5
+  4377 W16       ScriptPos $431AB PointerPos $43011 PointerValue $AFAB
 Biraku[X]
-  4366 W16       ScriptPos $431EF PointerPos $43021 PointerValue $AFEF
+  4384 W16       ScriptPos $431B3 PointerPos $43013 PointerValue $AFB3
 Biraku[X]
-  4373 W16       ScriptPos $431F1 PointerPos $43023 PointerValue $AFF1
+  4391 W16       ScriptPos $431BD PointerPos $43015 PointerValue $AFBD
 Biraku[X]
-  4380 W16       ScriptPos $431FD PointerPos $43025 PointerValue $AFFD
+  4398 W16       ScriptPos $431C1 PointerPos $43017 PointerValue $AFC1
 Biraku[X]
-  4387 W16       ScriptPos $43211 PointerPos $43027 PointerValue $B011
+  4405 W16       ScriptPos $431CD PointerPos $43019 PointerValue $AFCD
 Biraku[X]
-  4394 W16       ScriptPos $43213 PointerPos $43029 PointerValue $B013
-  4401 W16       ScriptPos $43213 PointerPos $4302B PointerValue $B013
+  4412 W16       ScriptPos $431D1 PointerPos $4301B PointerValue $AFD1
 Biraku[X]
-  4408 W16       ScriptPos $43227 PointerPos $4302D PointerValue $B027
+  4420 W16       ScriptPos $431DF PointerPos $4301D PointerValue $AFDF
 Biraku[X]
-  4415 W16       ScriptPos $4323D PointerPos $4302F PointerValue $B03D
+  4427 W16       ScriptPos $431E5 PointerPos $4301F PointerValue $AFE5
 Biraku[X]
-  4422 W16       ScriptPos $43249 PointerPos $43031 PointerValue $B049
+  4434 W16       ScriptPos $431EF PointerPos $43021 PointerValue $AFEF
 Biraku[X]
-  4429 W16       ScriptPos $43251 PointerPos $43033 PointerValue $B051
+  4441 W16       ScriptPos $431F1 PointerPos $43023 PointerValue $AFF1
 Biraku[X]
-  4436 W16       ScriptPos $43265 PointerPos $43035 PointerValue $B065
+  4448 W16       ScriptPos $431FD PointerPos $43025 PointerValue $AFFD
 Biraku[X]
-  4442 W16       ScriptPos $4326D PointerPos $43037 PointerValue $B06D
+  4455 W16       ScriptPos $43211 PointerPos $43027 PointerValue $B011
 Biraku[X]
-  4449 W16       ScriptPos $43279 PointerPos $43039 PointerValue $B079
+  4462 W16       ScriptPos $43213 PointerPos $43029 PointerValue $B013
+  4469 W16       ScriptPos $43213 PointerPos $4302B PointerValue $B013
 Biraku[X]
-  4456 W16       ScriptPos $4328D PointerPos $4303B PointerValue $B08D
+  4476 W16       ScriptPos $43227 PointerPos $4302D PointerValue $B027
 Biraku[X]
-  4463 W16       ScriptPos $432AD PointerPos $4303D PointerValue $B0AD
+  4483 W16       ScriptPos $4323D PointerPos $4302F PointerValue $B03D
 Biraku[X]
-  4470 W16       ScriptPos $432C1 PointerPos $4303F PointerValue $B0C1
+  4490 W16       ScriptPos $43249 PointerPos $43031 PointerValue $B049
 Biraku[X]
-  4477 W16       ScriptPos $432D1 PointerPos $43041 PointerValue $B0D1
+  4497 W16       ScriptPos $43251 PointerPos $43033 PointerValue $B051
 Biraku[X]
-  4484 W16       ScriptPos $432DB PointerPos $43043 PointerValue $B0DB
+  4504 W16       ScriptPos $43265 PointerPos $43035 PointerValue $B065
 Biraku[X]
-  4491 W16       ScriptPos $432F7 PointerPos $43045 PointerValue $B0F7
+  4510 W16       ScriptPos $4326D PointerPos $43037 PointerValue $B06D
 Biraku[X]
-  4498 W16       ScriptPos $43303 PointerPos $43047 PointerValue $B103
+  4517 W16       ScriptPos $43279 PointerPos $43039 PointerValue $B079
 Biraku[X]
-  4505 W16       ScriptPos $4330F PointerPos $43049 PointerValue $B10F
+  4524 W16       ScriptPos $4328D PointerPos $4303B PointerValue $B08D
 Biraku[X]
-  4512 W16       ScriptPos $4331B PointerPos $4304B PointerValue $B11B
+  4531 W16       ScriptPos $432AD PointerPos $4303D PointerValue $B0AD
 Biraku[X]
-  4519 W16       ScriptPos $4332B PointerPos $4304D PointerValue $B12B
+  4538 W16       ScriptPos $432C1 PointerPos $4303F PointerValue $B0C1
 Biraku[X]
-  4526 W16       ScriptPos $43341 PointerPos $4304F PointerValue $B141
+  4545 W16       ScriptPos $432D1 PointerPos $43041 PointerValue $B0D1
 Biraku[X]
-  4533 W16       ScriptPos $43353 PointerPos $43051 PointerValue $B153
+  4552 W16       ScriptPos $432DB PointerPos $43043 PointerValue $B0DB
 Biraku[X]
-  4540 W16       ScriptPos $43369 PointerPos $43053 PointerValue $B169
+  4559 W16       ScriptPos $432F7 PointerPos $43045 PointerValue $B0F7
 Biraku[X]
-  4547 W16       ScriptPos $43389 PointerPos $43055 PointerValue $B189
+  4566 W16       ScriptPos $43303 PointerPos $43047 PointerValue $B103
 Biraku[X]
-  4554 W16       ScriptPos $4339D PointerPos $43057 PointerValue $B19D
+  4573 W16       ScriptPos $4330F PointerPos $43049 PointerValue $B10F
 Biraku[X]
-  4561 W16       ScriptPos $433B5 PointerPos $43059 PointerValue $B1B5
+  4580 W16       ScriptPos $4331B PointerPos $4304B PointerValue $B11B
+Biraku[X]
+  4587 W16       ScriptPos $4332B PointerPos $4304D PointerValue $B12B
+Biraku[X]
+  4594 W16       ScriptPos $43341 PointerPos $4304F PointerValue $B141
+Biraku[X]
+  4601 W16       ScriptPos $43353 PointerPos $43051 PointerValue $B153
+Biraku[X]
+  4608 W16       ScriptPos $43369 PointerPos $43053 PointerValue $B169
+Biraku[X]
+  4615 W16       ScriptPos $43389 PointerPos $43055 PointerValue $B189
+Biraku[X]
+  4622 W16       ScriptPos $4339D PointerPos $43057 PointerValue $B19D
+Biraku[X]
+  4629 W16       ScriptPos $433B5 PointerPos $43059 PointerValue $B1B5
 Biraku[X]
