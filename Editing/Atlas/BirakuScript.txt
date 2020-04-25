@@ -1475,9 +1475,9 @@ Odo[X]
 
 //POINTER #113 @ $5E23A - STRING #113 @ $5E858
 
-#W16($5E23A) //Bonus Shard
+#W16($5E23A) //Boarus Shard
 //星のボアルス[X]
-Bonus[X]
+Boarus[X]
 
 //POINTER #114 @ $5E23C - STRING #114 @ $5E866
 
@@ -1501,7 +1501,7 @@ Lana[X]
 
 #W16($5E242) //Muon Shard
 //星のムオン[X]
-Muon[X]
+Silence[X]
 
 //POINTER #118 @ $5E244 - STRING #118 @ $5E89A
 
@@ -3484,6 +3484,336 @@ Important items[X]
 <$0E><$01><$08><$01>[N]
 <$0E><$01><$08><$01>[N]
 <$0E><$01><$0A><$01>[X]
+
+//BLOCK #010 NAME:		Chapter Names
+
+#JMP($5CBA8, $5D235)
+
+//POINTER #0 @ $5CB4E - STRING #0 @ $5CBA8
+
+#W16($5CB4E)
+//第99章  デバッグがんばれ!のまき[X]
+//Chapter 99: Good luck debugging! - Nomaki
+Ch99 Debug[X]
+
+//POINTER #1 @ $5CB50 - STRING #1 @ $5CBCE
+
+#W16($5CB50)
+//第1部 1章   デビルマウンテン[X]
+//Book 1 Chapter 1: Devil Mountain
+B1C1 Devil Mount.[X]
+
+//POINTER #2 @ $5CB52 - STRING #2 @ $5CBF2
+
+#W16($5CB52)
+//第1部 2章   オレルアンかんらく[X]
+//Book 1 Chapter 2: Orleans Soldiers
+B1C2 Orleans Troops[X]
+
+//POINTER #3 @ $5CB54 - STRING #3 @ $5CC18
+
+#W16($5CB54)
+//第1部 3章   めいそうするきょうだい[X]
+//Book 1 Chapter 3: ~~Princess Minerva~~ ??? "Siblings" says Google.
+//Breaking it apart some talks about mistakes as well.
+B1C3 Sibling Error[X]
+
+//POINTER #4 @ $5CB56 - STRING #4 @ $5CC42
+
+#W16($5CB56)
+//第1部 4章   ノルダのハッテンば[X]
+//Book 1 Chapter 4: Norda ~~Slave~~ Sex Market
+//Google was going on about sex at points.
+B1C4 Sex Market[X]
+
+//POINTER #5 @ $5CB58 - STRING #5 @ $5CC68
+
+#W16($5CB58)
+//第1部 5章   アカネイア<$BF><$00>パレス[X]
+//Book 1 Chapter 5: Akaneia Palace
+B1C5 Akaneia Palace[X]
+
+//POINTER #6 @ $5CB5A - STRING #6 @ $5CC8E
+
+#W16($5CB5A)
+//第1部 6章   みなみサムスーフ[X]
+//Book 1 Chapter 6: South Samsufe
+B1C6 South Samsufe[X]
+
+//POINTER #7 @ $5CB5C - STRING #7 @ $5CCB2
+
+#W16($5CB5C)
+//第1部 7章   はかばまちワーレン[X]
+//Book 1 Chapter 7: ~~Port~~ Graveyard Town Warren
+//Seperating the words helps Google work better.
+B1C7 Grave Town Warren[X]
+
+//POINTER #8 @ $5CB5E - STRING #8 @ $5CCD8
+
+#W16($5CB5E)
+//第1部 8章   ペラティのか竜[X]
+//Book 1 Chapter 8: The Peraty Dragon
+B1C8 Peraty Dragon[X]
+
+//POINTER #9 @ $5CB60 - STRING #9 @ $5CCFA
+
+#W16($5CB60)
+//第1部 9章   マルスたびだてず[X]
+//Book 1 Chapter 9: No Marth Here
+//Come on Google, there's more than "Mars", if you will.
+B1C9: Where's Marth?[X]
+
+//POINTER #10 @ $5CB62 - STRING #10 @ $5CD1E
+
+#W16($5CB62)
+//第1部 10章  ぜつぼう[X]
+//Book 1 Chapter 10: Despair
+B1C10 Despair[X]
+
+//POINTER #11 @ $5CB64 - STRING #11 @ $5CD3A
+
+#W16($5CB64)
+//第1部 11章  そうげんのたたかい[X]
+//Book 1 Chapter 11: Prairie Battle
+B1C11 Prairie Battle[X]
+
+//POINTER #12 @ $5CB66 - STRING #12 @ $5CD60
+
+#W16($5CB66)
+//第1部 12章  グルニアのもくばたい[X]
+//Book 1 Chapter 12: Grunia's Wooden Horses
+B1C12 Wooden Horses[X]
+
+//POINTER #13 @ $5CB68 - STRING #13 @ $5CD88
+
+#W16($5CB68)
+//第1部 13章  ブラックナイツ カミュ[X]
+//Book 1 Chapter 13: Black Knight Camus
+B1C13 Knight Camus[X]
+
+//POINTER #14 @ $5CB6A - STRING #14 @ $5CDB2
+
+#W16($5CB6A)
+//第1部 14章  ビラクのつるぎ[X]
+//Book 1 Chapter 14: Biraku's Sword
+B1C14 Biraku's Sword[X]
+
+//POINTER #15 @ $5CB6C - STRING #15 @ $5CDD4
+
+#W16($5CB6C)
+//第1部 15章  みかいのだいち[X]
+//Book 1 Chapter 15: Barbarian Country
+//"Uncivilised Earth", says Google
+B1C15 Barbarian Land[X]
+
+//POINTER #16 @ $5CB6E - STRING #16 @ $5CDF6
+
+#W16($5CB6E)
+//第1部 16章  ま<$E3><$00>ガッネフ[X]
+//Book 1 Chapter 16: Dark Priest Garnef
+//At least the kana gave it away.
+B1C16 Dark Garnef[X]
+
+//POINTER #17 @ $5CB70 - STRING #17 @ $5CE16
+
+#W16($5CB70)
+//第1部 17章  竜のせかい[X]
+//Book 1 Chapter 17: World of Dragons
+B1C17 Dragon World[X]
+
+//POINTER #18 @ $5CB72 - STRING #18 @ $5CE34
+
+#W16($5CB72)
+//第1部 18章  しんあんこく竜とひかりのつるぎ[X]
+//Book 1 Chapter 18: New Dark Dragon and the Sword of Light
+//It's Shadow Dragon's Japanese title
+B1C18 New Dark Dragon[X]
+
+//POINTER #19 @ $5CB74 - STRING #19 @ $5CE66
+
+#W16($5CB74)
+//第1部 19章  えらばれなかったものたち[X]
+//Book 1 Chapter 19: The ~~Chosen~~ Unchosen Ones
+B1C19 Unchosen Ones[X]
+
+//POINTER #20 @ $5CB76 - STRING #20 @ $5CE92
+
+#W16($5CB76)
+//第1部 20章  けっせんマケドニア[X]
+//Book 1 Chapter 20: Final Battle in Macedonia
+B1C20 End in Macedonia[X]
+
+//POINTER #21 @ $5CB78 - STRING #21 @ $5CEE0
+
+#W16($5CB78)
+//第2部 1章   グルニアえんせい[X]
+//Book 2 Chapter 1: The Grunian Expedition
+B2C1 Grunian Trip[X]
+
+//POINTER #22 @ $5CB7A - STRING #22 @ $5CF04
+
+#W16($5CB7A)
+//第2部 2章   マケドニアのはんらん[X]
+//Book 2 Chapter 2: Rebellion in Macedonia
+B2C2 Macedonian Rebels[X]
+
+//POINTER #23 @ $5CB7C - STRING #23 @ $5CF2C
+
+#W16($5CB7C)
+//第2部 3章   つれさられたおうじょ[X]
+//Book 2 Chapter 3: Abducted Princess
+B2C3 Abducted Princess[X]
+
+//POINTER #24 @ $5CB7E - STRING #24 @ $5CF54
+
+#W16($5CB7E)
+//第2部 4章   よろこびとかなしみと[X]
+//Book 2 Chapter 4: Joy and Sorrow
+B2C4 Joy and Sorrow[X]
+
+
+//POINTER #25 @ $5CB80 - STRING #25 @ $5CF7C
+
+#W16($5CB80)
+//第2部 5章   グルニアかいほう[X]
+//Book 2 Chapter 5: Liberation of Grunia
+B2C5 Free Grunia[X]
+
+//POINTER #26 @ $5CB82 - STRING #26 @ $5CFA0
+
+#W16($5CB82)
+//第2部 6章   あくのす[X]
+//Book 2 Chapter 6: The Nest of Vice
+B2C6 Nest of Vice[X]
+
+//POINTER #27 @ $5CB84 - STRING #27 @ $5CFBC
+
+#W16($5CB84)
+//第2部 7章   くれないのけんし[X]
+//Book 2 Chapter 7: Scarlet Swordsman
+B2C7 Red Swordsman[X]
+
+//POINTER #28 @ $5CB86 - STRING #28 @ $5CFE0
+
+#W16($5CB86)
+//第2部 8章   ソウルフル<$BF><$00>ブリッジ[X]
+//Book 2 Chapter 8: Soulful Bridge
+B2C8 Soulful Bridge[X]
+
+//POINTER #29 @ $5CB88 - STRING #29 @ $5D008
+
+#W16($5CB88)
+//第2部 9章   まどうのせいいき[X]
+//Book 2 Chapter 9: Sanctuary of Sorcery
+B2C9 Sorcery Haven[X]
+
+
+//POINTER #30 @ $5CB8A - STRING #30 @ $5D02C
+
+#W16($5CB8A)
+//第2部 10章  えいゆうふたり[X]
+//Book 2 Chapter 10: Two Heroes
+//There aren't two mages no more
+B2C10 Two Heroes
+
+//POINTER #31 @ $5CB8C - STRING #31 @ $5D04E
+
+#W16($5CB8C)
+//第2部 11章  ビンリのみち[X]
+//Book 2 Chapter 11: Binri's Way
+//Biraku Anri
+B2C11 Binri's Way[X]
+
+//POINTER #32 @ $5CB8E - STRING #32 @ $5D06E
+
+#W16($5CB8E)
+//第2部 12章  かりゅうのはかば[X]
+//Book 2 Chapter 12: Fire Dragon's Graveyard
+B2C12 Dragon Grave[X]
+
+//POINTER #33 @ $5CB90 - STRING #33 @ $5D092
+
+#W16($5CB90)
+//第2部 13章  こおりのだいち[X]
+//Book 2 Chapter 13: Frozen Land
+B2C13 Frozen Land[X]
+
+//POINTER #34 @ $5CB92 - STRING #34 @ $5D0B4
+
+#W16($5CB92)
+//第2部 14章  あかされたなぞ[X]
+//Book 2 Chapter 14: A Mystery Revealed
+B2C14 Mystery Revealed[X]
+
+//POINTER #35 @ $5CB94 - STRING #35 @ $5D0D6
+
+#W16($5CB94)
+//第2部 15章  おうじのきかん[X]
+//Book 2 Chapter 15: Return of the Prince
+B2C15 Prince's Back[X]
+
+//POINTER #36 @ $5CB96 - STRING #36 @ $5D0F8
+
+#W16($5CB96)
+//第2部 16章 オレルアンのわな[X]
+//Book 2 Chapter 16: Orleans's Trap
+B2C16 Orleans's Trap[X]
+
+
+//POINTER #37 @ $5CB98 - STRING #37 @ $5D11A
+
+#W16($5CB98)
+//第2部 17章  グラのらくじつ[X]
+//Book 2 Chapter 17: Setting Sun of Gra
+B2C17: Gra's Sunset[X]
+
+//POINTER #38 @ $5CB9A - STRING #38 @ $5D13C
+
+#W16($5CB9A)
+//第2部 18章  とうげのたたかい[X]
+//Book 2 Chapter 18: Battle of the Pass
+//No weird name for the chapter Biraku's fought normally? Boo!
+B2C18 Pass Battle[X]
+
+//POINTER #39 @ $5CB9C - STRING #39 @ $5D160
+
+#W16($5CB9C)
+//第2部 19章  さいごのけっせん[X]
+//Book 2 Chapter 19: The Last Decisive Battle
+B2C19 Decisive Battle[X]
+
+//POINTER #40 @ $5CB9E - STRING #40 @ $5D184
+
+#W16($5CB9E)
+//第2部 20章  あんこくおうじ[X]
+//Book 2 Chapter 20: Dark Prince
+//Selling Marth short, are we?
+B2C20 Dark Prince[X]
+
+//POINTER #41 @ $5CBA0 - STRING #41 @ $5D1A8
+
+#W16($5CBA0)
+//第2部 <$D1><$00>章1  ひりゅうのたに[X]
+//Book 2 Final Chapter 1: Dragon's Dale
+B2C21 Dragon's Dale[X]
+
+//POINTER #42 @ $5CBA2 - STRING #42 @ $5D1CA
+
+#W16($5CBA2)
+#W16($5CBA4) //Final 2
+#W16($5CBA6) //Final 3
+//第2部 <$D1><$00>章2  りゅうのさいだん[X]
+//Book 2 Final Chapter 2: Dragon's Altar
+Final Dragon's Altar
+
+//POINTER #43 @ $5CBA4 - STRING #43 @ $5D1CA
+
+//第2部 <$D1><$00>章2  りゅうのさいだん[X]
+
+
+//POINTER #44 @ $5CBA6 - STRING #44 @ $5D1CA
+
+//第2部 <$D1><$00>章2  りゅうのさいだん[X]
 
 
 
