@@ -2163,7 +2163,7 @@ Back  Next         <$C0><$00>     <$C1><$00>[X]
 <$05><$01><$06><$01><$06><$01><$06><$01><$06><$01><$06><$01><$06><$01><$06><$01><$06><$01><$06><$01><$06><$01><$07><$01>[N2]
 <$08><$01>Continue  <$09><$01>[N]
 <$08><$01>from save?<$09><$01>[N]
-<$08><$01>  Yes   No<$09><$01>[N]
+<$08><$01>  Yes  No <$09><$01>[N]
 <$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
 
 
@@ -4381,42 +4381,42 @@ Drp[X]
 #W16($42FDB)
 //Critical hit
 //<$CC><$00><$CD><$00>の<$CE><$00><$D3><$00>!!![X]
-Crit![X]
+A critical hit![X]
 
 //POINTER #1 @ $42FDD - STRING #1 @ $4306D
 
 #W16($42FDD)
 //Normal attack
 //の<$D2><$00><$D3><$00>[X]
-'s attack[X]
+'s attack.[X]
 
 //POINTER #2 @ $42FDF - STRING #2 @ $43075
 
 #W16($42FDF)
 //Counter attack
 //のはん<$D3><$00>[X]
-'s counter[X]
+'s counterattack.[X]
 
 //POINTER #3 @ $42FE1 - STRING #3 @ $4307F
 
 #W16($42FE1)
 //のさい<$D2><$00><$D3><$00>[X]
 //Double attack
- doubles[X]
+'s second attack.[X]
 
 //POINTER #4 @ $42FE3 - STRING #4 @ $4308B
 
 #W16($42FE3)
 //Attack dodged
 //は すばやくみをかわした![X]
- dodged[X]
+ dodged.[X]
 
 //POINTER #5 @ $42FE5 - STRING #5 @ $430A7
 
 #W16($42FE5)
 //Grammatical stuff
 //は[X]
- [X]
+; [X]
 
 //POINTER #6 @ $42FE7 - STRING #6 @ $430AB
 
@@ -4430,21 +4430,21 @@ Crit![X]
 #W16($42FE9)
 //Took damage A
 //のダメージを うけた[X]
- took [X]
+ damage.[X]
 
 //POINTER #8 @ $42FEB - STRING #8 @ $430C5
 
 #W16($42FEB)
 //Took damage B
 //のダメージを あたえた[X]
- damage[X]
+ damage.[X]
 
 //POINTER #9 @ $42FED - STRING #9 @ $430DD
 
 #W16($42FED)
 //Got what?
 //のけいけんちをえた[X]
- got [X]
+ EXP.[X]
 
 //POINTER #10 @ $42FEF - STRING #10 @ $430F1
 
@@ -4472,35 +4472,35 @@ Crit![X]
 #W16($42FF5)
 //Who knows?
 //<$CF><$00><$D0><$00>した[X]
-![X]
+ [X]
 
 //POINTER #14 @ $42FF7 - STRING #14 @ $4311D
 
 #W16($42FF7)
 //Unit death
 //は たおれた[X]
- fell[X]
+ fell.[X]
 
 //POINTER #15 @ $42FF9 - STRING #15 @ $4312B
 
 #W16($42FF9)
 //Weapon broke
 //は こわれてしまった[X]
- broke[X]
+ broke.[X]
 
 //POINTER #16 @ $42FFB - STRING #16 @ $43141
 
 #W16($42FFB)
 //No damage
 //は <$D2><$00><$D3><$00>をうけとめた![X]
- No damage[X]
+; No damage.[X]
 
 //POINTER #17 @ $42FFD - STRING #17 @ $43159
 
 #W16($42FFD)
 //Another unit death?
 //をたおした[X]
- died[X]
+ died.[X]
 
 //POINTER #18 @ $42FFF - STRING #18 @ $43165
 
@@ -4514,14 +4514,14 @@ Crit![X]
 #W16($43001)
 //Enemy had a thing.
 //をもっていた[X]
- had[X]
+ dropped.[X]
 
 //POINTER #20 @ $43003 - STRING #20 @ $4317D
 
 #W16($43003)
 //You took the thing.
 //をてにいれた[X]
- got[X]
+ obtained![X]
 
 //POINTER #21 @ $43005 - STRING #21 @ $4318B
 
@@ -4632,9 +4632,9 @@ down[X]
 //POINTER #36 @ $43023 - STRING #36 @ $43249
 
 #W16($43023)
-//"Rep" what, FE3?
+//"Rep" what, FE3? Hammerne, if I had to guess. 
 //が<$CF><$00><$D0><$00>した[X]
- rep.[X]
+ fixed.[X]
 
 //POINTER #37 @ $43025 - STRING #37 @ $43255
 
@@ -4683,14 +4683,14 @@ Round[X]
 #W16($43031)
 //Fight!
 // ファイト!![X]
-Go![X]
+Fight![X]
 
 //POINTER #44 @ $43033 - STRING #44 @ $432E3
 
 #W16($43033)
 //Triangle Attack
 //トライアングルアターック![X]
-Triangle![X]
+Triangle Attack![X]
 
 //POINTER #45 @ $43035 - STRING #45 @ $432FF
 
@@ -4710,14 +4710,14 @@ form.[X]
 #W16($43039)
 //Promotion
 //クラスチェンジした[X]
- promoted[X]
+promotion.[X]
 
 //POINTER #48 @ $4303B - STRING #48 @ $43325
 
 #W16($4303B)
 //What curse?
 //は のろいをはなった!![X]
- broke the curse
+ backfired!
 
 //POINTER #49 @ $4303D - STRING #49 @ $4333F
 
@@ -4731,21 +4731,21 @@ All heal [X]
 #W16($4303F)
 //Attack sealed
 //は <$D2><$00><$D3><$00>をふうじられた[X]
- blocked
+ blocked.[X]
 
 //POINTER #51 @ $43041 - STRING #51 @ $4336F
 
 #W16($43041)
 //Movement?
 //いどうりょく[X]
-Move[X]
+Move [X]
 
 //POINTER #52 @ $43043 - STRING #52 @ $4337D
 
 #W16($43043)
 //Resire
 //のHPを うばった[X]
-'s HP drained[X]
+'s HP drained.[X]
 
 //POINTER #53 @ $43045 - STRING #53 @ $43391
 
@@ -4766,35 +4766,35 @@ taken[X]
 #W16($43049)
 //Dance
 //は げんきになった![X]
- move[X]
+ move again.[X]
 
 //POINTER #56 @ $4304B - STRING #56 @ $433D3
 
 #W16($4304B)
 //Warp
 //を いどうさせた[X]
- warped[X]
+ warped.[X]
 
 //POINTER #57 @ $4304D - STRING #57 @ $433E5
 
 #W16($4304D)
-//Magic seal
+//Silence
 //は てきのまほうをふうじた![X]
- No damage[X]
+; Magic halted[X]
 
 //POINTER #58 @ $4304F - STRING #58 @ $43403
 
 #W16($4304F)
 //Rescue
 //を よびよせた[X]
- is here[X]
+ is here.[X]
 
 //POINTER #59 @ $43051 - STRING #59 @ $43413
 
 #W16($43051)
 //Unlock
 //は とびらをあけた[X]
- Door open[X]
+ opened a door.[X]
 
 //POINTER #60 @ $43053 - STRING #60 @ $43427
 
