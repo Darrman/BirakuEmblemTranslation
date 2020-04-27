@@ -1,0 +1,3 @@
+0x29C250 = Small English Fire Emblem logo?
+0x2F1559 = Big Japanese Fire Emblem logo
+0x2F7244 = Mystery of the Emblem subtitle
