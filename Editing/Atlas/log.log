@@ -1522,9 +1522,37 @@ Biraku[X]
 Biraku[X]
   4868 W16       ScriptPos $43451 PointerPos $43059 PointerValue $B251
 Biraku[X]
-  4876 JMP       ROM Position is now $CE06
+  4874 JMP       ROM Position is now $434A9 with max bound of $43582
+  4878 W16       ScriptPos $434A9 PointerPos $43497 PointerValue $B2A9
 Biraku[X]
-  4878 JMP       ROM Position is now $CE29
+  4885 W16       ScriptPos $434B1 PointerPos $43499 PointerValue $B2B1
 Biraku[X]
-  4882 JMP       ROM Position is now $1471A
+  4892 W16       ScriptPos $434BD PointerPos $4349B PointerValue $B2BD
+Biraku[X]
+  4899 W16       ScriptPos $434C5 PointerPos $4349D PointerValue $B2C5
+Biraku[X]
+  4906 W16       ScriptPos $434D1 PointerPos $4349F PointerValue $B2D1
+Biraku[X]
+  4913 W16       ScriptPos $434DD PointerPos $434A1 PointerValue $B2DD
+Biraku[X]
+  4920 W16       ScriptPos $434E9 PointerPos $434A3 PointerValue $B2E9
+Biraku[X]
+  4928 W16       ScriptPos $434EB PointerPos $434A5 PointerValue $B2EB
+Biraku[X]
+  4935 W16       ScriptPos $434F3 PointerPos $434A7 PointerValue $B2F3
+Biraku[X]
+  4942 JMP       ROM Position is now $43513 with max bound of $43582
+  4946 W16       ScriptPos $43513 PointerPos $4350B PointerValue $B313
+Biraku[X]
+  4953 W16       ScriptPos $43529 PointerPos $4350D PointerValue $B329
+Biraku[X]
+  4960 W16       ScriptPos $43545 PointerPos $4350F PointerValue $B345
+Biraku[X]
+  4967 W16       ScriptPos $43561 PointerPos $43511 PointerValue $B361
+Biraku[X]
+  4974 JMP       ROM Position is now $CE06
+Biraku[X]
+  4976 JMP       ROM Position is now $CE29
+Biraku[X]
+  4980 JMP       ROM Position is now $1471A
 Biraku[X]

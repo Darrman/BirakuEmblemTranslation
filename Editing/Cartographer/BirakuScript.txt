@@ -2276,7 +2276,89 @@
 //こうどうりょくを かいふくさせた[X]
 
 
-//BLOCK #004 NAME:		Status Screen
+//BLOCK #004 NAME:		Shortened Battle Class Names
+
+//POINTER #0 @ $43497 - STRING #0 @ $434A9
+
+#W16($43497)
+//Sナイト[X]
+
+
+//POINTER #1 @ $43499 - STRING #1 @ $434B3
+
+#W16($43499)
+//Aナイト[X]
+
+
+//POINTER #2 @ $4349B - STRING #2 @ $434BD
+
+#W16($4349B)
+//Pナイト[X]
+
+
+//POINTER #3 @ $4349D - STRING #3 @ $434C7
+
+#W16($4349D)
+//Dナイト[X]
+
+
+//POINTER #4 @ $4349F - STRING #4 @ $434D1
+
+#W16($4349F)
+//バーサーカ[X]
+
+
+//POINTER #5 @ $434A1 - STRING #5 @ $434DD
+
+#W16($434A1)
+//やみしさい[X]
+
+
+//POINTER #6 @ $434A3 - STRING #6 @ $434E9
+
+#W16($434A3)
+//しゅごしん[X]
+
+
+//POINTER #7 @ $434A5 - STRING #7 @ $434F5
+
+#W16($434A5)
+//ひょう竜[X]
+
+
+//POINTER #8 @ $434A7 - STRING #8 @ $434FF
+
+#W16($434A7)
+//あんこく竜[X]
+
+
+//BLOCK #005 NAME:		Lengthened Class Roll Names
+
+//POINTER #0 @ $4350B - STRING #0 @ $43513
+
+#W16($4350B)
+//ソシアルナイト(Sナイト)[X]
+
+
+//POINTER #1 @ $4350D - STRING #1 @ $4352F
+
+#W16($4350D)
+//アーマーナイト(Aナイト)[X]
+
+
+//POINTER #2 @ $4350F - STRING #2 @ $4354B
+
+#W16($4350F)
+//ペガサスナイト(Pナイト)[X]
+
+
+//POINTER #3 @ $43511 - STRING #3 @ $43567
+
+#W16($43511)
+//ドラゴンナイト(Dナイト)[X]
+
+
+//BLOCK #006 NAME:		Status Screen
 
 //POINTER #0 @ $5AF32 - STRING #0 @ $5AF52
 
@@ -2387,7 +2469,7 @@ HP   /[X]
 //     [X]
 
 
-//BLOCK #005 NAME:		Menu Commands
+//BLOCK #007 NAME:		Menu Commands
 
 //POINTER #0 @ $5ACE6 - STRING #0 @ $5AD16
 
@@ -2533,7 +2615,7 @@ HP   /[X]
 <$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
 
 
-//BLOCK #006 NAME:		Item Descriptions
+//BLOCK #008 NAME:		Item Descriptions
 
 //POINTER #0 @ $5E924 - STRING #0 @ $5EA26
 
@@ -3674,7 +3756,7 @@ LV10で[N]
 あかし[X]
 
 
-//BLOCK #007 NAME:		Terrain Descriptions
+//BLOCK #009 NAME:		Terrain Descriptions
 
 //POINTER #0 @ $5F68E - STRING #0 @ $5F7D2
 
@@ -4835,7 +4917,7 @@ LV10で[N]
 <$F9><$00>ひ :25[X]
 
 
-//BLOCK #008 NAME:		Unit Screen
+//BLOCK #010 NAME:		Unit Screen
 
 //POINTER #0 @ $5B66A - STRING #0 @ $5B674
 
@@ -4867,7 +4949,7 @@ LV10で[N]
 // <$E7><$00><$E8><$00> <$FF>あ<$01> <$F9><$00>ひ <$02><$01><$03><$01> <$E7><$00><$E9><$00> <$CB><$00><$EC><$00> [X]
 
 
-//BLOCK #009 NAME:		Various Popups
+//BLOCK #011 NAME:		Various Popups
 
 //POINTER #0 @ $5B722 - STRING #0 @ $5B754
 
@@ -5093,7 +5175,7 @@ LV10で[N]
 <$0E><$01><$0A><$01>[X]
 
 
-//BLOCK #010 NAME:		Chapter Names
+//BLOCK #012 NAME:		Chapter Names
 
 //POINTER #0 @ $5CB4E - STRING #0 @ $5CBA8
 
@@ -5365,7 +5447,7 @@ LV10で[N]
 //第2部 <$D1><$00>章2  りゅうのさいだん[X]
 
 
-//BLOCK #011 NAME:		Chapter Goals
+//BLOCK #013 NAME:		Chapter Goals
 
 //POINTER #0 @ $5D236 - STRING #0 @ $5D290
 
@@ -5638,7 +5720,7 @@ LV10で[N]
 ぎょくざのせいあつ[X]
 
 
-//BLOCK #012 NAME:		Map Menu and Submenus
+//BLOCK #014 NAME:		Map Menu and Submenus
 
 //POINTER #0 @ $5A1EA - STRING #0 @ $5A206
 
@@ -5694,7 +5776,7 @@ LV10で[N]
 //POINTER #4 @ $5A1F2 - STRING #4 @ $5A44C
 
 #W16($5A1F2)
-まえ  つぎ             <$C0><$00>     <$C1><$00>[X]
+まえ  つぎ             (     )[X]
 
 
 //POINTER #5 @ $5A1F4 - STRING #5 @ $5A482
@@ -5799,7 +5881,7 @@ LV10で[N]
 <$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
 
 
-//BLOCK #013 NAME:		Supply Error Messages
+//BLOCK #015 NAME:		Supply Error Messages
 
 //POINTER #0 @ $5B094 - STRING #0 @ $5B0AE
 
@@ -5906,7 +5988,7 @@ LV10で[N]
 <$18><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$1A><$01>[X]
 
 
-//BLOCK #014 NAME:		Stat Booster Usage Messages
+//BLOCK #016 NAME:		Stat Booster Usage Messages
 
 //POINTER #0 @ $5D33A - STRING #0 @ $5D358
 
@@ -6017,7 +6099,7 @@ LV10で[N]
 <$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
 
 
-//BLOCK #015 NAME:		Battle Prep Menu
+//BLOCK #017 NAME:		Battle Prep Menu
 
 //POINTER #0 @ $5A164 - STRING #0 @ $5A166
 
@@ -6030,7 +6112,7 @@ LV10で[N]
 <$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
 
 
-//BLOCK #016 NAME:		Battle Prep Menu
+//BLOCK #018 NAME:		Battle Prep Menu
 
 //POINTER #0 @ $5C838 - STRING #0 @ $5C844
 
@@ -6082,7 +6164,7 @@ LV10で[N]
 <$18><$01><$19><$01><$19><$01><$19><$01><$19><$01><$19><$01><$1A><$01>[X]
 
 
-//BLOCK #017 NAME:		Options Menus
+//BLOCK #019 NAME:		Options Menus
 
 //POINTER #0 @ $5BFD6 - STRING #0 @ $5BFE2
 
@@ -6146,7 +6228,7 @@ LV10で[N]
 <$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
 
 
-//BLOCK #018 NAME:		Weapon/Item Submenus
+//BLOCK #020 NAME:		Weapon/Item Submenus
 
 //POINTER #0 @ $5AEC6 - STRING #0 @ $5AED2
 
@@ -6184,7 +6266,7 @@ LV10で[N]
 //<$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
 
 
-//BLOCK #019 NAME:		Main Supply Menu
+//BLOCK #021 NAME:		Main Supply Menu
 
 //POINTER #0 @ $5C6BC - STRING #0 @ $5C6BE
 
@@ -6193,7 +6275,7 @@ LV10で[N]
 <$DB><$00>てる[X]
 
 
-//BLOCK #020 NAME:		Unused Debug Mode
+//BLOCK #022 NAME:		Unused Debug Mode
 
 //POINTER #0 @ $5C6DC - STRING #0 @ $5C6E8
 
@@ -6238,7 +6320,7 @@ LV10で[N]
 //シーピーユーバージョン:[X]
 
 
-//BLOCK #021 NAME:		Door Opening
+//BLOCK #023 NAME:		Door Opening
 
 //POINTER #0 @ $5FB36 - STRING #0 @ $5FB38
 
@@ -6250,7 +6332,7 @@ LV10で[N]
 <$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
 
 
-//BLOCK #022 NAME:		Discarding an Item
+//BLOCK #024 NAME:		Discarding an Item
 
 //POINTER #0 @ $5ABBC - STRING #0 @ $5ABC8
 
@@ -6294,7 +6376,7 @@ LV10で[N]
 <$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
 
 
-//BLOCK #023 NAME:		Unit Animation Settings
+//BLOCK #025 NAME:		Unit Animation Settings
 
 //POINTER #0 @ $5C210 - STRING #0 @ $5C214
 
@@ -6309,7 +6391,7 @@ LV10で[N]
 <$0A><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0B><$01><$0C><$01>[X]
 
 
-//BLOCK #024 NAME:		Shop Menus
+//BLOCK #026 NAME:		Shop Menus
 
 //POINTER #0 @ $5BECA - STRING #0 @ $5BED4
 

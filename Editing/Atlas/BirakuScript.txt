@@ -4869,7 +4869,105 @@ ceilings.[X]
 //こうどうりょくを かいふくさせた[X]
 can move again.[X]
 
+//BLOCK #004 NAME:		Shortened Class Names
 
+#JMP($434A9, $43582)
+
+//POINTER #0 @ $43497 - STRING #0 @ $434A9
+
+#W16($43497)
+//Sナイト[X]
+//Cavalier
+Cav[X]
+
+//POINTER #1 @ $43499 - STRING #1 @ $434B3
+
+#W16($43499)
+//Aナイト[X]
+//Armour Knight
+Armor[X]
+
+//POINTER #2 @ $4349B - STRING #2 @ $434BD
+
+#W16($4349B)
+//Pナイト[X]
+//Pegasus Knight
+Peg[X]
+
+//POINTER #3 @ $4349D - STRING #3 @ $434C7
+
+#W16($4349D)
+//Dナイト[X]
+//Dragon Knight
+Dragn[X]
+
+//POINTER #4 @ $4349F - STRING #4 @ $434D1
+
+#W16($4349F)
+//バーサーカ[X]
+//Berserker
+Bserk[X]
+
+//POINTER #5 @ $434A1 - STRING #5 @ $434DD
+
+#W16($434A1)
+//やみしさい[X]
+//Dark Mage
+DMage[X]
+
+//POINTER #6 @ $434A3 - STRING #6 @ $434E9
+
+#W16($434A3)
+//しゅごしん[X]
+//Guardian God, unused
+//Was Narga an enemy once? Who knows.
+[X]
+
+//POINTER #7 @ $434A5 - STRING #7 @ $434F5
+
+#W16($434A5)
+//Ice Dragon
+//ひょう竜[X]
+Ice[X]
+
+//POINTER #8 @ $434A7 - STRING #8 @ $434FF
+
+#W16($434A7)
+//あんこく竜[X]
+//Dark Dragon
+Dark[X]
+
+//BLOCK #005 NAME:		Lengthened Class Roll Names
+
+#JMP($43513, $43582)
+
+//POINTER #0 @ $4350B - STRING #0 @ $43513
+
+#W16($4350B)
+//ソシアルナイト(Sナイト)[X]
+//Cavalier
+ Cavalier[X]
+
+//POINTER #1 @ $4350D - STRING #1 @ $4352F
+
+#W16($4350D)
+//アーマーナイト(Aナイト)[X]
+//Armour Knight
+Armour Knight[X]
+
+//POINTER #2 @ $4350F - STRING #2 @ $4354B
+
+#W16($4350F)
+//ペガサスナイト(Pナイト)[X]
+//Pegasus Knight
+PegasusKnight[X]
+
+//POINTER #3 @ $43511 - STRING #3 @ $43567
+
+#W16($43511)
+//ドラゴンナイト(Dナイト)[X]
+//Dragon Knight
+Dragon Knight[X]
 
 //Non-script technical fixes
 //Move the Fire Emblem so Biraku's name isn't overwritten
