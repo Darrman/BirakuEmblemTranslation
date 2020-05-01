@@ -1849,7 +1849,7 @@ IceDr[X]
 //POINTER #14 @ $5AF4E - STRING #14 @ $5B07C
 
 #W16($5AF4E)
-FlyDr[X]
+Male[X]
 
 
 //POINTER #15 @ $5AF50 - STRING #15 @ $5B088
@@ -4321,14 +4321,14 @@ Drp[X]
 //POINTER #1 @ $5ABBE - STRING #1 @ $5ABCE
 
 #W16($5ABBE)
-<$D8><$00><$D9><$00><$DA><$00>[X]
-
+//<$D8><$00><$D9><$00><$DA><$00>[X]
+[X]
 
 //POINTER #2 @ $5ABC0 - STRING #2 @ $5ABD6
 
 #W16($5ABC0)
-<$CC><$00><$CD><$00><$CE><$00><$D8><$00><$D9><$00><$DA><$00>[X]
-
+//<$CC><$00><$CD><$00><$CE><$00><$D8><$00><$D9><$00><$DA><$00>[X]
+Supply[X]
 
 //POINTER #3 @ $5ABC2 - STRING #3 @ $5ABE4
 
@@ -4798,14 +4798,14 @@ Move [X]
 #W16($43045)
 //Had money
 //ゴールドをもっていた[X]
-found[X]
+gold found.[X]
 
 //POINTER #54 @ $43047 - STRING #54 @ $433A7
 
 #W16($43047)
 //Took money
 //ゴールドをてにいれた[X]
-taken[X]
+gold taken.[X]
 
 //POINTER #55 @ $43049 - STRING #55 @ $433BD
 
