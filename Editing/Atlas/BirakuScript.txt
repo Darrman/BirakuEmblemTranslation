@@ -2720,7 +2720,7 @@ Mercenary[X]
 //クラスチェンジできる[N]
 //てんしょくアイテム[X]
 Promote[N]
-Mage[N]
+Mage Male[N]
 Cleric[X]
 
 //POINTER #105 @ $5E9F6 - STRING #105 @ $5F48E
@@ -2743,7 +2743,7 @@ Pegasus[X]
 //てんしょくアイテム[X]
 Promote[N]
 Archer[N]
-Hunter[X]
+Horseman[X]
 
 //POINTER #109 @ $5E9FE - STRING #109 @ $5F53C
 
@@ -4946,7 +4946,7 @@ Dark[X]
 #W16($4350B)
 //ソシアルナイト(Sナイト)[X]
 //Cavalier
- Cavalier[X]
+Cavalier[X]
 
 //POINTER #1 @ $4350D - STRING #1 @ $4352F
 
