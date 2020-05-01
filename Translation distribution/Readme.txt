@@ -3,14 +3,18 @@ V1.0, 01/05/2020
 
 This is a patch that translates the menus of the romhack Biraku Emblem, which is based on Fire Emblem: Mystery of the Emblem.
 
+Patching Instructions:
 There are several patches available to apply to your rom. Please make sure you only apply one patch at a time and ensure you have a backup in case you make a mistake. 
+If you don't already have it, download Lunar IPS from RHDN.
+Alternatively, download NUPS from the same place. Replace all ".ips" mentions with ".ups".
 
 Biraku Emblem was designed for a Japanese 1.1 headered rom initially. This should be 3,146,240 bytes in size.
-ROM CRC32: A427B7E6.
+ROM CRC32: A427B7E6. Apply "BirakuEng11Header.ips".
 If the header is missing, your rom will be 3,145,728 bytes large instead.
 I'll also include a patch for 1.0 roms. These seem to be somewhat more prevelant. The checksum for an unheadered 1.0 rom is:
-ROM CRC32: 25D214F4.
+ROM CRC32: 25D214F4. Apply "BirakuEng10NoHeader.ips".
 If you already have a Japanese Biraku Emblem, there will be a patch to translate it.
+Apply "BirakuEngBiraku.ips".
 
 Known Issues:
 Translation Issues:
@@ -22,6 +26,22 @@ Original Issues (see original readme):
 *Ballisticians don't always display correctly.
 *One of the houses serves as a sound test in the first chapter of both books. If you enter it, you might be waiting for a while...
 *Yes, Machis is in the game. But you can ignore him if you want, since he's irrevelant to the plot.
+
+Credits:
+Anonymous Japanese hacker:
+For creating the hack in the first place.
+VincentASM and RPGuy:
+For translating FE3. I used their work as reference.
+bookofholsety:
+Provided some corrections for the Star Shard names.
+Darrman:
+Hacking work for this patch.
+
+The original Japanese release of Biraku Emblem is also included. It includes useful information about the hack in the HTML Guide folder. This is still in Japanese, so you'll have to get it machine translated.
+
+
+
+
 
 Rough Google Translation of original readme, somewhat revised so it's not too horribly broken:
 26/06/2010
